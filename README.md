@@ -1,7 +1,7 @@
 # Spojko - Open [hardware,software]
 
 
-Spojko je proizišao iz nemogućnosti brzog razvoja novih uredjaju i sistema koristeći nove platforme- koje se velikom brzinom pojavljuju na tržištu.  
+Spojko je proizašao iz potrebe brzog razvoja novih uređaja i sistema koristeći nove platforme, koje se velikom brzinom pojavljuju na tržištu.  
 
 Zašto smo se opredelili za open-hardware i open-software?
 
