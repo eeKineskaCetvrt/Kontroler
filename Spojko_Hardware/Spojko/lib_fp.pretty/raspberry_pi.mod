@@ -1,0 +1,25 @@
+PCBNEW-LibModule-V1  Tue 23 Dec 2014 02:57:24 PM CET
+# encoding utf-8
+Units mm
+$INDEX
+PiMOUNT
+$EndINDEX
+$MODULE PiMOUNT
+Po 0 0 0 15 5499739B 00000000 ~~
+Li PiMOUNT
+Cd Raspberry Pi mounting hole
+Kw PI
+Sc 0
+AR 1pin
+Op 0 0 0
+T0 0 -3.048 1.016 1.016 0 0.254 N I 21 N "PIMOUNT"
+T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "P***"
+$PAD
+Sh "1" C 6.2 6.2 0 0 0
+Dr 2.75 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE PiMOUNT
+$EndLIBRARY
