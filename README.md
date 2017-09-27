@@ -35,7 +35,7 @@ U meritokratiji, najbolje ideje pobeđuju. U meritokratiji, svako ima pristup is
 
 
 **Zajednica**
-Zajednice se osnivaju oko zajedničkih interesa. One donose raznovrsnost ideja i dele posao. Zajedno, globalna zajednica može kreirati van domašaja pojedinca. Množi se napor i deli se posao. 
+Zajednice se osnivaju oko zajedničkih interesa. One donose raznovrsnost ideja i dele posao. Zajedno, globalna zajednica može kreirati van domašaja pojedinca. Množi se napor i deli se posao.
 
 
 The term "open source" refers to something people can modify and share because its design is publicly accessible.
@@ -58,4 +58,3 @@ Projekat u osnovi se deli na:
 * Kreiraj svoju granu
 * Unapredi izmene
 * Postavi  
-
