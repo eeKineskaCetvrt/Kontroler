@@ -1,6 +1,6 @@
 # Spojko_Hardware
 
-Spojko hardware baziran na OPEN SOURCE [Kicad EDA](http://kicad-pcb.org/) (Electronics Design Automation) razvojnom okruzenju. 
+Spojko hardware baziran na OPEN SOURCE [Kicad EDA](http://kicad-pcb.org/) (Electronics Design Automation) razvojnom okruzenju.
 
 ## Instalacija
 
@@ -14,14 +14,14 @@ Korišćenje Github Kicad biblioteka [VIDEO](https://www.youtube.com/watch?v=KNX
 
 ## Spojko i Kicad
 
-Glavna primedba većine novih [Kicad](http://kicad-pcb.org/) korisnika je vezana za biblioteke šematskog simbola i footprint-a. Trik je da se koristi samo jedna biblioteka za šematske simbole i jedna za footprint-e. kroz projekat. Na ovaj način promene u osnovnim bibliotekama neće imati uticaj na biblioteke projekta i sa lakoćom će se projekat deliti bez bojazni od pucanja. U nastavku će se ova tema detaljnije pojasniti. 
+Glavna primedba većine novih [Kicad](http://kicad-pcb.org/) korisnika je vezana za biblioteke šematskog simbola i footprint-a. Trik je da se koristi samo jedna biblioteka za šematske simbole i jedna za footprint-e. kroz projekat. Na ovaj način promene u osnovnim bibliotekama neće imati uticaj na biblioteke projekta i sa lakoćom će se projekat deliti bez bojazni od pucanja. U nastavku će se ova tema detaljnije pojasniti.
 
 
 
 
 Kicad čuva šematske simbole i footprint-e u pojedinačnim bibliotekama i na vama je da povežete simbol sa pripadajućim footprint-om koristeći jedan od više načina. Ovo dosta odbija ljude, ali veoma lepo radi kada se naviknete.
 
-U staro doba, pre kompjutera, većina dizajnera bi prvo nacrtala **šematski prikaz** pa zatim kreirala **listu materijala** gde bi definisali specifikacije komponenti koje su korišćene i nastavili ka sledećoj fazi izrade elektronskih pločica. 
+U staro doba, pre kompjutera, većina dizajnera bi prvo nacrtala **šematski prikaz** pa zatim kreirala **listu materijala** gde bi definisali specifikacije komponenti koje su korišćene i nastavili ka sledećoj fazi izrade elektronskih pločica.
 
 KiCAD prati te korake.
 
@@ -33,18 +33,20 @@ KiCAD prati te korake.
 	* Ime podprojekta
 		* 3d_models       // .STEP i .WRL model fajlovi za sve footprint-e
 		*  datasheets     // Tehnicka uputsva komponenti
-		* gerber         // Završni masinski fajlovi 
+		* gerber         // Završni masinski fajlovi
 		* images         // SVG slike i 3d renderi ploča
 		* lib_sch        // Biblioteka šematskih simbola
 		* lib_fp.pretty  // Biblioteka footprint-a
 		* pdf            // Šeme, tehnički crteži, raspored komponenti itd.
 		* ReadMeStuff  // Slike i fajlovi potrebni za README file
-		
-        
+
+
 #### Menadžment biblioteke simbola
 Kada crtate šeme pomoću simbola iz Kicad ugrađene biblioteke, EESCHEMA stvara lokalnu rezervnu biblioteku pod nazivom  _**podprojekat-cache.lib**_. Kad završite sa crtanjem sheme, kopirajte ovu datoteku u _**lib_sch**_ folder i preimenujte je u _**podprojekat.lib**_, ostala biblioteke simbola mozete obrisati.
 
 Zatim idite na **↳PREFERENCES ↳Component library**, odaberite **↳CURRENT SEARCH PATH LIST**. Da biste uputili na svoj lokalni folder projekta ~ / podprojekta /, kliknite dugme **ADD** (DODAJ) u gornjem pop-up prozoru (NIJE dugme Add u sredini pop-up), i na kraju odaberite _**podprojekat.lib**_. Dodaje se ispod trenutno odabrane biblioteke u listu.
+
+![GitHub Logo](https://github.com/eeKineskaCetvrt/Spojko/blob/master/Spojko_Hardware/ReadMeStuff/LibraryMenager.PNG)
 
 KiCAD čita biblioteke redom, stoga morate odabrati podprojekat.lib i staviti ga na vrh liste pomoću dugmeta UP. Ako postoji sličan simbol u različitim bibliotekama, tada se prva instanca koristi! U ovom trenutku možete ukloniti sve druge navedene biblioteke ili ih zanemariti sve dok osiguravate da svaki simbol koji upotrebljavate je dodat u podprojekat.lib i da se poziva samo iz te datoteke.
 Vaš projekt sada koristi samo jednu shematsku biblioteku simbola -_~ / Spojko / lib_sch / podprojekat.lib_ - i sve izmene shematskih biblioteka neće uticati na vaš projekat. Koristeći gore definisanu strukturu, lako je deliti projekat na GitHub-u bez bojazni o sukobu   u biblioteci.
@@ -81,8 +83,3 @@ Otvorite šematski prikat zadnji put, generišite sveži NET list, otvorite PCBn
 
 ## Zaključak
 Ovo sve može zvučati pomalo zbunjujuće u početku, ali vremenom postaje vrlo lako i možete eliminisati neke korake. Na primer, već imamo biblioteku za većinu zajedničkih delova koje upotrebljavamao, kopirajte ove footprint-e pre početka novog projekta. Tokom vremena, kako postaje sve bolji, počet ćete graditi svoje šematske simbole i footprint-e, umesto korišćenja spoljšnih verzija. Kao što sam rekao na početku, nije savršeno, i za mene taj proces radi jako dobro. Ako imate komentare ili predloge o tome da to učinite bolje, kreirajte svoju granu, unapredite, postavite.
-
-
-
-
-
