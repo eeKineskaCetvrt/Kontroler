@@ -2,11 +2,11 @@
 
   (general
     (links 527)
-    (no_connects 527)
-    (area 20.244999 21.514999 274.395001 161.365001)
+    (no_connects 524)
+    (area 20.193 21.463 280.162 161.417)
     (thickness 1.6)
     (drawings 9)
-    (tracks 0)
+    (tracks 4)
     (zones 0)
     (modules 42)
     (nets 124)
@@ -222,10 +222,8 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-    (add_net +24V)
     (add_net +3V3)
     (add_net GND)
-    (add_net GND24V)
     (add_net GPIO12)
     (add_net GPIO16)
     (add_net GPIO18)
@@ -345,6 +343,16 @@
     (add_net TXD)
   )
 
+  (net_class +24V ""
+    (clearance 0.2)
+    (trace_width 3.81)
+    (via_dia 0.6)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net +24V)
+  )
+
   (net_class +5V ""
     (clearance 0.3)
     (trace_width 0.781437)
@@ -354,6 +362,16 @@
     (uvia_drill 0.1)
     (add_net +5V)
     (add_net 5VMCU)
+  )
+
+  (net_class GND24V ""
+    (clearance 0.2)
+    (trace_width 3.81)
+    (via_dia 0.6)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net GND24V)
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x40_Pitch2.54mm (layer F.Cu) (tedit 59650533) (tstamp 59975DA4)
@@ -3594,5 +3612,10 @@
   (gr_line (start 274.32 21.59) (end 20.32 21.59) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 274.32 161.29) (end 274.32 21.59) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 20.32 161.29) (end 274.32 161.29) (angle 90) (layer Edge.Cuts) (width 0.15))
+
+  (segment (start 35.56 68.58) (end 38.1 68.58) (width 0.781437) (layer F.Cu) (net 10))
+  (segment (start 38.1 68.58) (end 40.64 68.58) (width 0.781437) (layer F.Cu) (net 10) (tstamp 59B1EA26))
+  (segment (start 40.64 68.58) (end 43.94 71.88) (width 0.781437) (layer F.Cu) (net 10) (tstamp 59B1EA2B))
+  (segment (start 43.94 71.88) (end 43.94 74.93) (width 0.781437) (layer F.Cu) (net 10) (tstamp 59B1EA2C))
 
 )
