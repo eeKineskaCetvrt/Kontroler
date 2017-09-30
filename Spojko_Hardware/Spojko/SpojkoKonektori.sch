@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Spojko-cache
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,14 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:cat24c32hu4i-gt3
-LIBS:DMMT5401
-LIBS:fdc5614p
-LIBS:lm1117
-LIBS:lm3489
-LIBS:max1164x
-LIBS:mcp23017
-LIBS:raspberry_pi_+_conn
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:Symbols_EN60617_13Mar2013
 LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
@@ -45,19 +38,13 @@ LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
 LIBS:Symbols_Socket-DIN41612_RevA
 LIBS:Symbols_Transformer-Diskrete_RevA
 LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
-LIBS:vLM2596
-LIBS:ESP8266
-LIBS:vESP-12e
-LIBS:vPower5V-3V3
 LIBS:switches
 LIBS:sensors
-LIBS:sefrtsrts
-LIBS:Spojko-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -755,37 +742,21 @@ Wire Wire Line
 Wire Wire Line
 	1500 2900 1700 2900
 Wire Wire Line
-	1250 3000 7000 3000
+	1250 3000 10650 3000
 Wire Wire Line
-	7050 3000 10650 3000
+	1250 3100 10650 3100
 Wire Wire Line
-	1250 3100 7000 3100
+	1250 3200 10650 3200
 Wire Wire Line
-	7050 3100 10650 3100
+	1250 3300 10650 3300
 Wire Wire Line
-	1250 3200 7000 3200
+	1250 3400 10650 3400
 Wire Wire Line
-	7050 3200 10650 3200
+	1250 3500 10650 3500
 Wire Wire Line
-	1250 3300 7000 3300
+	1250 3600 8150 3600
 Wire Wire Line
-	7050 3300 10650 3300
-Wire Wire Line
-	1250 3400 7000 3400
-Wire Wire Line
-	7050 3400 10650 3400
-Wire Wire Line
-	1250 3500 7000 3500
-Wire Wire Line
-	7050 3500 10650 3500
-Wire Wire Line
-	1250 3600 7000 3600
-Wire Wire Line
-	7050 3600 10650 3600
-Wire Wire Line
-	1250 3700 7000 3700
-Wire Wire Line
-	7050 3700 10650 3700
+	1250 3700 10650 3700
 Wire Wire Line
 	2200 1800 2400 1800
 Wire Wire Line
@@ -1602,19 +1573,29 @@ Wire Wire Line
 Wire Wire Line
 	8650 1700 8850 1700
 Connection ~ 10150 3000
-Connection ~ 8650 3000
 Connection ~ 10150 3100
-Connection ~ 8650 3100
 Connection ~ 10150 3200
-Connection ~ 8650 3200
 Connection ~ 10150 3300
-Connection ~ 8650 3300
 Connection ~ 10150 3400
-Connection ~ 8650 3400
 Connection ~ 10150 3500
-Connection ~ 8650 3500
 Connection ~ 10150 3600
-Connection ~ 8650 3600
 Connection ~ 10150 3700
+Connection ~ 7000 3000
+Connection ~ 7000 3100
+Connection ~ 7000 3200
+Connection ~ 7000 3300
+Connection ~ 7000 3400
+Connection ~ 7000 3500
+Connection ~ 7000 3600
+Connection ~ 7000 3700
+Wire Wire Line
+	8200 3600 10650 3600
+Connection ~ 8650 3000
+Connection ~ 8650 3100
+Connection ~ 8650 3200
+Connection ~ 8650 3300
+Connection ~ 8650 3400
+Connection ~ 8650 3500
+Connection ~ 8650 3600
 Connection ~ 8650 3700
 $EndSCHEMATC
