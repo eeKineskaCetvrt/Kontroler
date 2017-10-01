@@ -751,4 +751,8 @@ Wire Wire Line
 	10500 5100 10600 5100
 Wire Wire Line
 	10600 5100 10600 5900
+Text GLabel 5150 4200 2    60   Input ~ 0
+RST
+Wire Wire Line
+	5150 4200 5000 4200
 $EndSCHEMATC

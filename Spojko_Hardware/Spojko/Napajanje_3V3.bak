@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Spojko-cache
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,14 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:cat24c32hu4i-gt3
-LIBS:DMMT5401
-LIBS:fdc5614p
-LIBS:lm1117
-LIBS:lm3489
-LIBS:max1164x
-LIBS:mcp23017
-LIBS:raspberry_pi_+_conn
 LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
 LIBS:Symbols_EN60617_13Mar2013
 LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
@@ -45,14 +38,8 @@ LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
 LIBS:Symbols_Socket-DIN41612_RevA
 LIBS:Symbols_Transformer-Diskrete_RevA
 LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
-LIBS:vLM2596
-LIBS:ESP8266
-LIBS:vESP-12e
-LIBS:vPower5V-3V3
 LIBS:switches
 LIBS:sensors
-LIBS:sefrtsrts
-LIBS:Spojko-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
