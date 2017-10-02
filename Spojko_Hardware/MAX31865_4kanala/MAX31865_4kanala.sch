@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:MAX31865_4kanala-rescue
+LIBS:SamacSys_Parts
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -65,17 +66,6 @@ F 1 "400" V 2400 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 2330 2000 50  0001 C CNN
 F 3 "" H 2400 2000 50  0001 C CNN
 	1    2400 2000
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X04 J1
-U 1 1 5996208F
-P 900 1200
-F 0 "J1" H 900 1450 50  0000 C CNN
-F 1 "CONN_01X04" V 1000 1200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 900 1200 50  0001 C CNN
-F 3 "" H 900 1200 50  0001 C CNN
-	1    900  1200
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -271,10 +261,10 @@ F 3 "" H 6900 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR3
 U 1 1 599776F5
 P 4700 4850
-F 0 "#PWR01" H 4700 4600 50  0001 C CNN
+F 0 "#PWR3" H 4700 4600 50  0001 C CNN
 F 1 "GND" H 4700 4700 50  0000 C CNN
 F 2 "" H 4700 4850 50  0000 C CNN
 F 3 "" H 4700 4850 50  0000 C CNN
@@ -282,10 +272,10 @@ F 3 "" H 4700 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR7
 U 1 1 599786D2
 P 5550 6700
-F 0 "#PWR02" H 5550 6450 50  0001 C CNN
+F 0 "#PWR7" H 5550 6450 50  0001 C CNN
 F 1 "GND" H 5550 6550 50  0000 C CNN
 F 2 "" H 5550 6700 50  0000 C CNN
 F 3 "" H 5550 6700 50  0000 C CNN
@@ -293,10 +283,10 @@ F 3 "" H 5550 6700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR1
 U 1 1 59979812
 P 4650 1450
-F 0 "#PWR03" H 4650 1200 50  0001 C CNN
+F 0 "#PWR1" H 4650 1200 50  0001 C CNN
 F 1 "GND" H 4650 1300 50  0000 C CNN
 F 2 "" H 4650 1450 50  0000 C CNN
 F 3 "" H 4650 1450 50  0000 C CNN
@@ -328,10 +318,10 @@ $EndComp
 Text GLabel 6400 5950 2    60   Input ~ 0
 VDD
 $Comp
-L GND #PWR04
+L GND #PWR6
 U 1 1 5997EFBD
 P 5500 5000
-F 0 "#PWR04" H 5500 4750 50  0001 C CNN
+F 0 "#PWR6" H 5500 4750 50  0001 C CNN
 F 1 "GND" H 5500 4850 50  0000 C CNN
 F 2 "" H 5500 5000 50  0000 C CNN
 F 3 "" H 5500 5000 50  0000 C CNN
@@ -361,10 +351,10 @@ F 3 "" H 5200 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR2
 U 1 1 59981525
 P 4700 3150
-F 0 "#PWR05" H 4700 2900 50  0001 C CNN
+F 0 "#PWR2" H 4700 2900 50  0001 C CNN
 F 1 "GND" H 4700 3000 50  0000 C CNN
 F 2 "" H 4700 3150 50  0000 C CNN
 F 3 "" H 4700 3150 50  0000 C CNN
@@ -372,10 +362,10 @@ F 3 "" H 4700 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR5
 U 1 1 59981534
 P 5500 3300
-F 0 "#PWR06" H 5500 3050 50  0001 C CNN
+F 0 "#PWR5" H 5500 3050 50  0001 C CNN
 F 1 "GND" H 5500 3150 50  0000 C CNN
 F 2 "" H 5500 3300 50  0000 C CNN
 F 3 "" H 5500 3300 50  0000 C CNN
@@ -405,10 +395,10 @@ F 3 "" H 5200 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L GND #PWR4
 U 1 1 599815FD
 P 5500 1600
-F 0 "#PWR07" H 5500 1350 50  0001 C CNN
+F 0 "#PWR4" H 5500 1350 50  0001 C CNN
 F 1 "GND" H 5500 1450 50  0000 C CNN
 F 2 "" H 5500 1600 50  0000 C CNN
 F 3 "" H 5500 1600 50  0000 C CNN
@@ -438,17 +428,6 @@ F 3 "" H 5200 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 J2
-U 1 1 59987DBC
-P 900 2900
-F 0 "J2" H 900 3150 50  0000 C CNN
-F 1 "CONN_01X04" V 1000 2900 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 900 2900 50  0001 C CNN
-F 3 "" H 900 2900 50  0001 C CNN
-	1    900  2900
-	-1   0    0    1   
-$EndComp
-$Comp
 L C C2
 U 1 1 59987DC2
 P 1950 2900
@@ -468,17 +447,6 @@ RTDIN1+
 Text Label 1450 3250 0    60   ~ 0
 IFORCE1+
 $Comp
-L CONN_01X04 J3
-U 1 1 5998842B
-P 900 4600
-F 0 "J3" H 900 4850 50  0000 C CNN
-F 1 "CONN_01X04" V 1000 4600 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 900 4600 50  0001 C CNN
-F 3 "" H 900 4600 50  0001 C CNN
-	1    900  4600
-	-1   0    0    1   
-$EndComp
-$Comp
 L C C3
 U 1 1 59988431
 P 1950 4600
@@ -497,17 +465,6 @@ Text Label 1450 4800 0    60   ~ 0
 RTDIN2+
 Text Label 1450 4950 0    60   ~ 0
 IFORCE2+
-$Comp
-L CONN_01X04 J4
-U 1 1 59988647
-P 950 6300
-F 0 "J4" H 950 6550 50  0000 C CNN
-F 1 "CONN_01X04" V 1050 6300 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 950 6300 50  0001 C CNN
-F 3 "" H 950 6300 50  0001 C CNN
-	1    950  6300
-	-1   0    0    1   
-$EndComp
 $Comp
 L C C4
 U 1 1 5998864D
@@ -561,10 +518,10 @@ F 3 "" H 2450 7100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR8
 U 1 1 5999DF8D
 P 10450 6300
-F 0 "#PWR08" H 10450 6050 50  0001 C CNN
+F 0 "#PWR8" H 10450 6050 50  0001 C CNN
 F 1 "GND" H 10450 6150 50  0000 C CNN
 F 2 "" H 10450 6300 50  0000 C CNN
 F 3 "" H 10450 6300 50  0000 C CNN
@@ -613,27 +570,9 @@ SDA
 Text GLabel 7800 700  0    60   Input ~ 0
 RST
 Wire Wire Line
-	1150 900  1150 1050
-Wire Wire Line
-	1150 1050 1100 1050
-Wire Wire Line
-	1200 1000 2650 1000
-Wire Wire Line
-	1200 1000 1200 1150
-Wire Wire Line
-	1200 1150 1100 1150
-Wire Wire Line
-	1200 1250 1100 1250
-Wire Wire Line
-	1150 1550 2650 1550
-Wire Wire Line
-	1150 1550 1150 1350
-Wire Wire Line
-	1150 1350 1100 1350
+	550  1550 2650 1550
 Wire Wire Line
 	10100 3150 10650 3150
-Wire Wire Line
-	1150 900  2650 900 
 Wire Wire Line
 	1950 1050 1950 1000
 Connection ~ 1950 1000
@@ -810,9 +749,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 1850 2400 1800
 Wire Wire Line
-	1200 1250 1200 1400
-Wire Wire Line
-	1200 1400 2200 1400
+	700  1400 2200 1400
 Wire Wire Line
 	1950 1400 1950 1350
 Wire Wire Line
@@ -826,32 +763,14 @@ Wire Wire Line
 	2300 1450 2300 1550
 Connection ~ 2300 1550
 Wire Wire Line
-	1150 2600 1150 2750
+	1400 2700 2650 2700
 Wire Wire Line
-	1150 2750 1100 2750
-Wire Wire Line
-	1200 2700 2650 2700
-Wire Wire Line
-	1200 2700 1200 2850
-Wire Wire Line
-	1200 2850 1100 2850
-Wire Wire Line
-	1200 2950 1100 2950
-Wire Wire Line
-	1150 3250 2650 3250
-Wire Wire Line
-	1150 3250 1150 3050
-Wire Wire Line
-	1150 3050 1100 3050
-Wire Wire Line
-	1150 2600 2650 2600
+	550  3250 2650 3250
 Wire Wire Line
 	1950 2750 1950 2700
 Connection ~ 1950 2700
 Wire Wire Line
-	1200 2950 1200 3100
-Wire Wire Line
-	1200 3100 2200 3100
+	700  3100 2200 3100
 Wire Wire Line
 	1950 3100 1950 3050
 Wire Wire Line
@@ -865,32 +784,14 @@ Wire Wire Line
 	2300 3150 2300 3250
 Connection ~ 2300 3250
 Wire Wire Line
-	1150 4300 1150 4450
+	1400 4400 2650 4400
 Wire Wire Line
-	1150 4450 1100 4450
-Wire Wire Line
-	1200 4400 2650 4400
-Wire Wire Line
-	1200 4400 1200 4550
-Wire Wire Line
-	1200 4550 1100 4550
-Wire Wire Line
-	1200 4650 1100 4650
-Wire Wire Line
-	1150 4950 2650 4950
-Wire Wire Line
-	1150 4950 1150 4750
-Wire Wire Line
-	1150 4750 1100 4750
-Wire Wire Line
-	1150 4300 2650 4300
+	550  4950 2650 4950
 Wire Wire Line
 	1950 4450 1950 4400
 Connection ~ 1950 4400
 Wire Wire Line
-	1200 4650 1200 4800
-Wire Wire Line
-	1200 4800 2200 4800
+	700  4800 2200 4800
 Wire Wire Line
 	1950 4800 1950 4750
 Wire Wire Line
@@ -904,32 +805,14 @@ Wire Wire Line
 	2300 4850 2300 4950
 Connection ~ 2300 4950
 Wire Wire Line
-	1200 6000 1200 6150
+	1400 6100 2700 6100
 Wire Wire Line
-	1200 6150 1150 6150
-Wire Wire Line
-	1250 6100 2700 6100
-Wire Wire Line
-	1250 6100 1250 6250
-Wire Wire Line
-	1250 6250 1150 6250
-Wire Wire Line
-	1250 6350 1150 6350
-Wire Wire Line
-	1200 6650 2700 6650
-Wire Wire Line
-	1200 6650 1200 6450
-Wire Wire Line
-	1200 6450 1150 6450
-Wire Wire Line
-	1200 6000 2700 6000
+	550  6650 2700 6650
 Wire Wire Line
 	2000 6150 2000 6100
 Connection ~ 2000 6100
 Wire Wire Line
-	1250 6350 1250 6500
-Wire Wire Line
-	1250 6500 2250 6500
+	700  6500 2250 6500
 Wire Wire Line
 	2000 6500 2000 6450
 Wire Wire Line
@@ -1039,19 +922,19 @@ Wire Wire Line
 	10650 3350 10450 3350
 Connection ~ 10450 3350
 Wire Wire Line
-	10650 3450 10450 3450
+	10450 3450 10650 3450
 Connection ~ 10450 3450
 Wire Wire Line
-	10650 5950 10450 5950
+	10450 5950 10650 5950
 Connection ~ 10450 5950
 Wire Wire Line
-	10650 5650 10450 5650
+	10450 5650 10650 5650
 Connection ~ 10450 5650
 Wire Wire Line
-	10650 5350 10450 5350
+	10450 5350 10650 5350
 Connection ~ 10450 5350
 Wire Wire Line
-	10650 5150 10450 5150
+	10450 5150 10650 5150
 Connection ~ 10450 5150
 Wire Wire Line
 	8100 1000 7450 1000
@@ -1142,4 +1025,114 @@ Wire Wire Line
 	10100 5450 10650 5450
 Wire Wire Line
 	10450 3050 10450 6300
+$Comp
+L 1824763 J1
+U 1 1 59D17C43
+P 700 900
+F 0 "J1" H 1050 1050 50  0000 C CNN
+F 1 "1824763" H 1050 650 50  0000 C CNN
+F 2 "1824763" H 1050 550 50  0001 C CNN
+F 3 "http://uk.rs-online.com/web/p/products/1116078" H 1050 450 50  0001 C CNN
+F 4 "Phoenix Contact COMBICON SPT-SMD Series 5mm Pitch Straight PCB Terminal Block with Solder Termination, Surface Mount" H 1050 350 50  0001 C CNN "Description"
+F 5 "RS" H 1050 250 50  0001 C CNN "Supplier_Name"
+F 6 "1116078P" H 1050 150 50  0001 C CNN "RS Part Number"
+F 7 "Phoenix Contact" H 1050 50  50  0001 C CNN "Manufacturer_Name"
+F 8 "1824763" H 1050 -50 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "" H 1050 -150 50  0001 C CNN "Allied_Number"
+F 10 "" H 1050 -250 50  0001 C CNN "Other Part Number"
+F 11 "" H 1250 -350 50  0001 C CNN "Height"
+	1    700  900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1000 2650 1000
+Wire Wire Line
+	1400 900  2650 900 
+Wire Wire Line
+	700  1000 700  1400
+Wire Wire Line
+	700  900  550  900 
+Wire Wire Line
+	550  900  550  1550
+$Comp
+L 1824763 J2
+U 1 1 59D1B8A0
+P 700 2600
+F 0 "J2" H 1050 2750 50  0000 C CNN
+F 1 "1824763" H 1050 2350 50  0000 C CNN
+F 2 "1824763" H 1050 2250 50  0001 C CNN
+F 3 "http://uk.rs-online.com/web/p/products/1116078" H 1050 2150 50  0001 C CNN
+F 4 "Phoenix Contact COMBICON SPT-SMD Series 5mm Pitch Straight PCB Terminal Block with Solder Termination, Surface Mount" H 1050 2050 50  0001 C CNN "Description"
+F 5 "RS" H 1050 1950 50  0001 C CNN "Supplier_Name"
+F 6 "1116078P" H 1050 1850 50  0001 C CNN "RS Part Number"
+F 7 "Phoenix Contact" H 1050 1750 50  0001 C CNN "Manufacturer_Name"
+F 8 "1824763" H 1050 1650 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "" H 1050 1550 50  0001 C CNN "Allied_Number"
+F 10 "" H 1050 1450 50  0001 C CNN "Other Part Number"
+F 11 "" H 1250 1350 50  0001 C CNN "Height"
+	1    700  2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1824763 J3
+U 1 1 59D1B959
+P 700 4300
+F 0 "J3" H 1050 4450 50  0000 C CNN
+F 1 "1824763" H 1050 4050 50  0000 C CNN
+F 2 "1824763" H 1050 3950 50  0001 C CNN
+F 3 "http://uk.rs-online.com/web/p/products/1116078" H 1050 3850 50  0001 C CNN
+F 4 "Phoenix Contact COMBICON SPT-SMD Series 5mm Pitch Straight PCB Terminal Block with Solder Termination, Surface Mount" H 1050 3750 50  0001 C CNN "Description"
+F 5 "RS" H 1050 3650 50  0001 C CNN "Supplier_Name"
+F 6 "1116078P" H 1050 3550 50  0001 C CNN "RS Part Number"
+F 7 "Phoenix Contact" H 1050 3450 50  0001 C CNN "Manufacturer_Name"
+F 8 "1824763" H 1050 3350 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "" H 1050 3250 50  0001 C CNN "Allied_Number"
+F 10 "" H 1050 3150 50  0001 C CNN "Other Part Number"
+F 11 "" H 1250 3050 50  0001 C CNN "Height"
+	1    700  4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1824763 J4
+U 1 1 59D1BBF9
+P 700 6000
+F 0 "J4" H 1050 6150 50  0000 C CNN
+F 1 "1824763" H 1050 5750 50  0000 C CNN
+F 2 "1824763" H 1050 5650 50  0001 C CNN
+F 3 "http://uk.rs-online.com/web/p/products/1116078" H 1050 5550 50  0001 C CNN
+F 4 "Phoenix Contact COMBICON SPT-SMD Series 5mm Pitch Straight PCB Terminal Block with Solder Termination, Surface Mount" H 1050 5450 50  0001 C CNN "Description"
+F 5 "RS" H 1050 5350 50  0001 C CNN "Supplier_Name"
+F 6 "1116078P" H 1050 5250 50  0001 C CNN "RS Part Number"
+F 7 "Phoenix Contact" H 1050 5150 50  0001 C CNN "Manufacturer_Name"
+F 8 "1824763" H 1050 5050 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "" H 1050 4950 50  0001 C CNN "Allied_Number"
+F 10 "" H 1050 4850 50  0001 C CNN "Other Part Number"
+F 11 "" H 1250 4750 50  0001 C CNN "Height"
+	1    700  6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6000 2700 6000
+Wire Wire Line
+	700  6100 700  6500
+Wire Wire Line
+	1400 2600 2650 2600
+Wire Wire Line
+	700  2700 700  3100
+Wire Wire Line
+	700  2600 550  2600
+Wire Wire Line
+	550  2600 550  3250
+Wire Wire Line
+	1400 4300 2650 4300
+Wire Wire Line
+	700  4400 700  4800
+Wire Wire Line
+	700  4300 550  4300
+Wire Wire Line
+	550  4300 550  4950
+Wire Wire Line
+	700  6000 550  6000
+Wire Wire Line
+	550  6000 550  6650
 $EndSCHEMATC
