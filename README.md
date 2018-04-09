@@ -22,7 +22,6 @@ Open Hardware, je elektrononski ili kompjuterski hardware napravljen od tehnicki
 Open-source software (OSS) je kompjuterski program čiji je osnovni kod dat javnosti sa licencom kojom se držaocu licence daje pravo da kod studira, menja, i distribuira trećim licima.
 ```
 
-
 Pogledajmo principe OPEN sveta:
 
 **Otvorena razmena**
@@ -41,15 +40,8 @@ U meritokratiji, najbolje ideje pobeđuju. Svako ima pristup istim informacijama
 Меритократија је вођство, теоретски засновано на заслугама, таленту, вештини, интелигенцији и другим релевантним вештинама, пре него на наслеђу (аристократија), богатству (плутократија) или вољи већине (демократија).
 ```
 
-
-
 **Zajednica**
 Zajednice se osnivaju oko zajedničkih interesa. One donose raznovrsnost ideja i dele posao. Zajedno, globalna zajednica može kreirati van domašaja pojedinca. Množi se napor i deli se posao.
-
-
-The term "open source" refers to something people can modify and share because its design is publicly accessible.
-The term originated in the context of software development to designate a specific approach to creating computer programs. Today, however, "open source" designates a broader set of values—what we call "the open source way." Open source projects, products, or initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development.
-
 
 
 ## Struktura projekta
