@@ -1,6 +1,6 @@
 # Kontrloler - Open [hardware,software]
 
-![Kontrloler Main](https://github.com/tvlada73/Spojko/blob/master/ReadMeStuff/Spojko%20ceo%201.png
+![Kontroler Main](https://github.com/tvlada73/Spojko/blob/master/ReadMeStuff/Spojko%20ceo%201.png
 )
 
 Kontroler je skup elektronskih ploča zajedno sa pripadajućim programima.
