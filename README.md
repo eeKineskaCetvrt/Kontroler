@@ -37,7 +37,7 @@ Brzi prototip može dovesti do brzog neuspeha ali svakim novim experimentom se u
 **Meritokratija**
 U meritokratiji, najbolje ideje pobeđuju. Svako ima pristup istim informacijama a uspešnost projekta uslovljena je prihvatanjem od strane zajednice koja shodno tome i trud ulaže.
 ```sh
-Меритократија је вођство, теоретски засновано на заслугама, таленту, вештини, интелигенцији и другим релевантним вештинама, пре него на наслеђу (аристократија), богатству (плутократија) или вољи већине (демократија).
+Meritokratija je vođstvo, teorijski zasnovano na zaslugama, talentu, veštini, inteligenciji i drugim relevantnim veštinama, pre nego na nasleđu(aristokratija), bogatstvuu(plutokratija) ili volji većine(demokratija).
 ```
 
 **Zajednica**
