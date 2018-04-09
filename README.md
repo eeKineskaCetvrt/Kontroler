@@ -1,4 +1,4 @@
-# Kontrloler - Open [hardware,software]
+# Kontroler - Open [hardware,software]
 
 ![Kontroler Main](https://github.com/tvlada73/Spojko/blob/master/ReadMeStuff/Spojko%20ceo%201.png
 )
