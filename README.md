@@ -1,9 +1,11 @@
-# Spojko - Open [hardware,software]
+# Kontrloler - Open [hardware,software]
 
-![Spojko Main](https://github.com/tvlada73/Spojko/blob/master/ReadMeStuff/Spojko%20ceo%201.png
+![Kontrloler Main](https://github.com/tvlada73/Spojko/blob/master/ReadMeStuff/Spojko%20ceo%201.png
 )
 
-Spojko je skup elektronskih pločica zajedno sa pripadajućim programima koje se međusobno spajaju. Proizašao iz potrebe brzog razvoja novih uređaja i sistema koristeći nove platforme.
+Kontroler je skup elektronskih ploča zajedno sa pripadajućim programima.
+
+Proizašao iz potrebe brzog razvoja novih uređaja i sistema koristeći nove miniPC(Raspberry Pi, BananaPi, Asus Tinker Board) i mikrokontroler(Arduino, ESP) platforme.
 
 
 Zašto smo se opredelili za open-hardware i open-software?
@@ -53,9 +55,9 @@ The term originated in the context of software development to designate a specif
 ## Struktura projekta
 
 Projekat u osnovi se deli na:
-* Spojko - Hardware
-* Spojko - Software
-* Spojko - Example
+* Kontroler - Hardware
+* Kontroler - Software
+* Kontroler - Example
 
 
 
