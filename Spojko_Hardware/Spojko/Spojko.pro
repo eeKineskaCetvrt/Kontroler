@@ -1,4 +1,4 @@
-update=09/27/17 01:57:34
+update=4/7/2018 4:56:10 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=project_libs
@@ -70,3 +68,5 @@ LibName38=C:/Program Files/KiCad/share/kicad/library/contrib_symbols_dl1eic/Symb
 LibName39=C:/Program Files/KiCad/share/kicad/library/contrib_symbols_dl1eic/SymbolsSimilarEN60617+oldDIN617-RevE8
 LibName40=F:/Documents/KiCad/Downloads/kicad-library-master/library/switches
 LibName41=F:/Documents/KiCad/Downloads/kicad-library-master/library/sensors
+[general]
+version=1

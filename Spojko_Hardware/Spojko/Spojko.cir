@@ -1,0 +1,56 @@
+* E:\Documents\KiCad\GitHub\Spojko\Spojko_Hardware\Spojko\Spojko.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 4/7/2018 3:55:00 AM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+P1  Net-_P1-Pad1_ 5VMCU SDA 5VMCU SCL GND ? TXD GND RXD ? GPIO18 ? GND ? GPIO23 ? GPIO24 ? GND ? GPIO25 ? ? GND RST ? ? ? GND ? GPIO12 ? GND ? GPIO16 GPIO26 GND GPIO21 Raspberry_Pi		
+J1  +24V GND24V CONN_01X02		
+Q2  +3V3 Net-_JP2-Pad2_ SDA1 BSS138		
+Q1  +3V3 Net-_JP1-Pad2_ SCL1 BSS138		
+JP2  SDA Net-_JP2-Pad2_ NO		
+JP1  SCL Net-_JP1-Pad2_ NO		
+R3  +5V SCL1 4K7		
+R4  +5V SDA1 4K7		
+U1  Net-_R1-Pad1_ ? Net-_R2-Pad1_ ? ? GPIO26 ? +3V3 GND Net-_R5-Pad1_ Net-_R6-Pad1_ Net-_SW2-Pad1_ SDA SCL RXD TXD ? ? ? ? ? ? ESP-12E		
+C4  +3V3 GND CP		
+C5  GND +3V3 C		
+SW1  GND Net-_R1-Pad1_ SW_Reset		
+SW2  Net-_SW2-Pad1_ GND SW_Flash		
+R1  Net-_R1-Pad1_ +3V3 10K		
+R2  Net-_R2-Pad1_ +3V3 10K		
+R6  Net-_R6-Pad1_ +3V3 10K		
+R5  Net-_R5-Pad1_ GND 10K		
+J2  ? GND ? RXD TXD ? CONN_01X06		
+U6  Net-_P1-Pad1_ GPIO26 GND DHT11		
+R9  Net-_P1-Pad1_ GPIO26 10K		
+C1  5VMCU GND CP		
+C2  GND 5VMCU C		
+C3  GND 5VMCU C		
+C6  GND +3V3 C		
+C7  +5V GND CP		
+* Sheet Name: /Spojko Power Supply/
+U3  GND24V +24V GND 5VMCU vLM2596		
+* Sheet Name: /Napajanje_5V/
+U4  GND24V +24V GND +5V vLM2596		
+* Sheet Name: /Power_3V3/
+U5  GND24V +24V GND +3V3 vLM2596		
+* Sheet Name: /SheetSpojkoKonektori/
+J5  +24V +24V +24V +24V +24V +24V GND24V GND24V GND24V GND24V GND24V GND24V +5V +5V +5V +5V GND GND +3V3 +3V3 +3V3 +3V3 GND GND GND GND Net-_J3-Pad27_ Net-_J3-Pad27_ Net-_J3-Pad29_ Net-_J3-Pad29_ Net-_J3-Pad31_ Net-_J3-Pad31_ Net-_J3-Pad33_ Net-_J3-Pad33_ Net-_J3-Pad35_ Net-_J3-Pad35_ Net-_J3-Pad37_ Net-_J3-Pad37_ Net-_J3-Pad39_ Net-_J3-Pad39_ Net-_J3-Pad41_ Net-_J3-Pad41_ Net-_J5-Pad43_ Net-_J5-Pad43_ Net-_J5-Pad45_ Net-_J5-Pad45_ Net-_J5-Pad47_ Net-_J5-Pad47_ Net-_J5-Pad49_ Net-_J5-Pad49_ Net-_J5-Pad51_ Net-_J5-Pad51_ Net-_J5-Pad53_ Net-_J5-Pad53_ Net-_J5-Pad55_ Net-_J5-Pad55_ Net-_J5-Pad57_ Net-_J5-Pad57_ GND GND RST RST GND GND TXD TXD RXD RXD GND GND SCL1 SCL1 SDA1 SDA1 GND GND SDA SDA SCL SCL CONN_02X40		
+J6  +24V +24V +24V +24V +24V +24V GND24V GND24V GND24V GND24V GND24V GND24V +5V +5V +5V +5V GND GND +3V3 +3V3 +3V3 +3V3 GND GND GND GND Net-_J3-Pad27_ Net-_J3-Pad27_ Net-_J3-Pad29_ Net-_J3-Pad29_ Net-_J3-Pad31_ Net-_J3-Pad31_ Net-_J3-Pad33_ Net-_J3-Pad33_ Net-_J3-Pad35_ Net-_J3-Pad35_ Net-_J3-Pad37_ Net-_J3-Pad37_ Net-_J3-Pad39_ Net-_J3-Pad39_ Net-_J3-Pad41_ Net-_J3-Pad41_ Net-_J6-Pad43_ Net-_J6-Pad43_ Net-_J6-Pad45_ Net-_J6-Pad45_ Net-_J6-Pad47_ Net-_J6-Pad47_ Net-_J6-Pad49_ Net-_J6-Pad49_ Net-_J6-Pad51_ Net-_J6-Pad51_ Net-_J6-Pad53_ Net-_J6-Pad53_ Net-_J6-Pad55_ Net-_J6-Pad55_ Net-_J6-Pad57_ Net-_J6-Pad57_ GND GND RST RST GND GND TXD TXD RXD RXD GND GND SCL1 SCL1 SDA1 SDA1 GND GND SDA SDA SCL SCL CONN_02X40		
+JP10  GPIO18 Net-_J3-Pad41_ NO		
+JP9  GPIO23 Net-_J3-Pad39_ NO		
+JP8  GPIO24 Net-_J3-Pad37_ NO		
+JP7  GPIO25 Net-_J3-Pad35_ NO		
+JP6  GPIO12 Net-_J3-Pad33_ NO		
+JP5  GPIO16 Net-_J3-Pad31_ NO		
+JP4  GPIO20 Net-_J3-Pad29_ NO		
+JP3  GPIO21 Net-_J3-Pad27_ NO		
+J8  +24V +24V +24V +24V +24V +24V GND24V GND24V GND24V GND24V GND24V GND24V +5V +5V +5V +5V GND GND +3V3 +3V3 +3V3 +3V3 GND GND GND GND Net-_J3-Pad27_ Net-_J3-Pad27_ Net-_J3-Pad29_ Net-_J3-Pad29_ Net-_J3-Pad31_ Net-_J3-Pad31_ Net-_J3-Pad33_ Net-_J3-Pad33_ Net-_J3-Pad35_ Net-_J3-Pad35_ Net-_J3-Pad37_ Net-_J3-Pad37_ Net-_J7-Pad40_ Net-_J7-Pad40_ Net-_J3-Pad41_ Net-_J3-Pad41_ Net-_J8-Pad43_ Net-_J8-Pad43_ Net-_J8-Pad45_ Net-_J8-Pad45_ Net-_J8-Pad47_ Net-_J8-Pad47_ Net-_J8-Pad49_ Net-_J8-Pad49_ Net-_J8-Pad51_ Net-_J8-Pad51_ Net-_J8-Pad53_ Net-_J8-Pad53_ Net-_J8-Pad55_ Net-_J8-Pad55_ Net-_J8-Pad57_ Net-_J8-Pad57_ GND GND RST RST GND GND TXD TXD RXD RXD GND GND SCL1 SCL1 SDA1 SDA1 GND GND SDA SDA SCL SCL CONN_02X40		
+J4  +24V +24V +24V +24V +24V +24V GND24V GND24V GND24V GND24V GND24V GND24V +5V +5V +5V +5V GND GND +3V3 +3V3 +3V3 +3V3 GND GND GND GND Net-_J3-Pad27_ Net-_J3-Pad27_ Net-_J3-Pad29_ Net-_J3-Pad29_ Net-_J3-Pad31_ Net-_J3-Pad31_ Net-_J3-Pad33_ Net-_J3-Pad33_ Net-_J3-Pad35_ Net-_J3-Pad35_ Net-_J3-Pad37_ Net-_J3-Pad37_ Net-_J3-Pad39_ Net-_J3-Pad39_ Net-_J3-Pad41_ Net-_J3-Pad41_ Net-_J4-Pad43_ Net-_J4-Pad43_ Net-_J4-Pad45_ Net-_J4-Pad45_ Net-_J4-Pad47_ Net-_J4-Pad47_ Net-_J4-Pad49_ Net-_J4-Pad49_ Net-_J4-Pad51_ Net-_J4-Pad51_ Net-_J4-Pad53_ Net-_J4-Pad53_ Net-_J4-Pad55_ Net-_J4-Pad55_ Net-_J4-Pad57_ Net-_J4-Pad57_ GND GND RST RST GND GND TXD TXD RXD RXD GND GND SCL1 SCL1 SDA1 SDA1 GND GND SDA SDA SCL SCL CONN_02X40		
+J3  +24V +24V +24V +24V +24V +24V GND24V GND24V GND24V GND24V GND24V GND24V +5V +5V +5V +5V GND GND +3V3 +3V3 +3V3 +3V3 GND GND GND GND Net-_J3-Pad27_ Net-_J3-Pad27_ Net-_J3-Pad29_ Net-_J3-Pad29_ Net-_J3-Pad31_ Net-_J3-Pad31_ Net-_J3-Pad33_ Net-_J3-Pad33_ Net-_J3-Pad35_ Net-_J3-Pad35_ Net-_J3-Pad37_ Net-_J3-Pad37_ Net-_J3-Pad39_ Net-_J3-Pad39_ Net-_J3-Pad41_ Net-_J3-Pad41_ Net-_J3-Pad43_ Net-_J3-Pad43_ Net-_J3-Pad45_ Net-_J3-Pad45_ Net-_J3-Pad47_ Net-_J3-Pad47_ Net-_J3-Pad49_ Net-_J3-Pad49_ Net-_J3-Pad51_ Net-_J3-Pad51_ Net-_J3-Pad53_ Net-_J3-Pad53_ Net-_J3-Pad55_ Net-_J3-Pad55_ Net-_J3-Pad57_ Net-_J3-Pad57_ GND GND RST RST GND GND TXD TXD RXD RXD GND GND SCL1 SCL1 SDA1 SDA1 GND GND SDA SDA SCL SCL CONN_02X40		
+J7  +24V +24V +24V +24V +24V +24V GND24V GND24V GND24V GND24V GND24V GND24V +5V +5V +5V +5V GND GND +3V3 +3V3 +3V3 +3V3 GND GND GND GND Net-_J3-Pad27_ Net-_J3-Pad27_ Net-_J3-Pad29_ Net-_J3-Pad29_ Net-_J3-Pad31_ Net-_J3-Pad31_ Net-_J3-Pad33_ Net-_J3-Pad33_ Net-_J3-Pad35_ Net-_J3-Pad35_ Net-_J3-Pad37_ Net-_J3-Pad37_ Net-_J3-Pad39_ Net-_J7-Pad40_ Net-_J3-Pad41_ Net-_J3-Pad41_ Net-_J7-Pad43_ Net-_J7-Pad43_ Net-_J7-Pad45_ Net-_J7-Pad45_ Net-_J7-Pad47_ Net-_J7-Pad47_ Net-_J7-Pad49_ Net-_J7-Pad49_ Net-_J7-Pad51_ Net-_J7-Pad51_ Net-_J7-Pad53_ Net-_J7-Pad53_ Net-_J7-Pad55_ Net-_J7-Pad55_ Net-_J7-Pad57_ Net-_J7-Pad57_ GND GND RST RST GND GND TXD TXD RXD RXD GND GND SCL1 SCL1 SDA1 SDA1 GND GND SDA SDA SCL SCL CONN_02X40		
+
+.end
