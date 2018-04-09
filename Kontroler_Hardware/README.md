@@ -1,18 +1,18 @@
-# Spojko_Hardware
+# Kontroler_Hardware
 
-Spojko hardware baziran na OPEN SOURCE [Kicad EDA](http://kicad-pcb.org/) (Electronics Design Automation) razvojnom okruzenju.
+Kontroler gvožđe(hardware) je baziran na OPEN SOURCE [Kicad EDA](http://kicad-pcb.org/) (Electronics Design Automation) razvojnom okruzenju.
 
 ## Instalacija
 
 
 Preuzmite najnoviju verziju Kicad programa [OVDE](http://kicad-pcb.org/download/).
 
-Instalacioni video [Windows](https://www.youtube.com/watch?v=Cu2VlXy-PzM), [Ubuntu](https://www.youtube.com/watch?v=C87Lrf-ipTA).  
+Instalacioni video [Windows](https://www.youtube.com/watch?v=Cu2VlXy-PzM), [Ubuntu](https://www.youtube.com/watch?v=C87Lrf-ipTA).
 
 Korišćenje Github Kicad biblioteka [VIDEO](https://www.youtube.com/watch?v=KNXB4zgupG4).
 
 
-## Spojko i Kicad
+## Kontroler i Kicad
 
 Glavna primedba većine novih [Kicad](http://kicad-pcb.org/) korisnika je vezana za biblioteke šematskog simbola i footprint-a. Trik je da se koristi samo jedna biblioteka za šematske simbole i jedna za footprint-e. kroz projekat. Na ovaj način promene u osnovnim bibliotekama neće imati uticaj na biblioteke projekta i sa lakoćom će se projekat deliti bez bojazni od pucanja. U nastavku će se ova tema detaljnije pojasniti.
 
@@ -25,11 +25,11 @@ U staro doba, pre kompjutera, većina dizajnera bi prvo nacrtala **šematski pri
 
 KiCAD prati te korake.
 
-#### Struktura Spojko projekta
+#### Struktura Kontroler pod-projekta
 
 
 
-* Spojko
+* Kontroler
 	* Ime podprojekta
 		* 3d_models       // .STEP i .WRL model fajlovi za sve footprint-e
 		*  datasheets     // Tehnicka uputsva komponenti
