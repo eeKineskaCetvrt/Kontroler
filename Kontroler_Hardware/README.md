@@ -46,7 +46,7 @@ Kada crtate šeme pomoću simbola iz Kicad ugrađene biblioteke, EESCHEMA stvara
 
 Zatim idite na **↳PREFERENCES ↳Component library**, odaberite **↳CURRENT SEARCH PATH LIST**. Da biste uputili na svoj lokalni folder projekta ~ / podprojekta /, kliknite dugme **ADD** (DODAJ) u gornjem pop-up prozoru (NIJE dugme Add u sredini pop-up), i na kraju odaberite _**podprojekat.lib**_. Dodaje se ispod trenutno odabrane biblioteke u listu.
 
-![GitHub Logo](https://github.com/eeKineskaCetvrt/Spojko/blob/master/Spojko_Hardware/ReadMeStuff/LibraryMenager.PNG)
+![GitHub Logo](https://github.com/tvlada73/Kontroler/blob/master/Kontroler_Hardware/ReadMeStuff/LibraryManager.PNG)
 
 KiCAD čita biblioteke redom, stoga morate odabrati podprojekat.lib i staviti ga na vrh liste pomoću dugmeta UP. Ako postoji sličan simbol u različitim bibliotekama, tada se prva instanca koristi! U ovom trenutku možete ukloniti sve druge navedene biblioteke ili ih zanemariti sve dok osiguravate da svaki simbol koji upotrebljavate je dodat u podprojekat.lib i da se poziva samo iz te datoteke.
 Vaš projekt sada koristi samo jednu shematsku biblioteku simbola -_~ / Spojko / lib_sch / podprojekat.lib_ - i sve izmene shematskih biblioteka neće uticati na vaš projekat. Koristeći gore definisanu strukturu, lako je deliti projekat na GitHub-u bez bojazni o sukobu   u biblioteci.
