@@ -1,4 +1,4 @@
-update=10/02/17 01:34:36
+update=4/15/2018 7:26:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,3 @@ LibName27=siliconi
 LibName28=opto
 LibName29=atmel
 LibName30=contrib
-LibName31=F:/Documents/KiCad/Projects/Spojko/project_libs/max31865
-LibName32=F:/Documents/KiCad/Projects/Spojko/project_libs/promini
