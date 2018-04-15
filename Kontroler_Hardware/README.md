@@ -1,6 +1,6 @@
 # Kontroler_Hardware
 
-Kontroler gvožđe(hardware) je baziran na OPEN SOURCE [Kicad EDA](http://kicad-pcb.org/) (Electronics Design Automation) razvojnom okruzenju.
+Kontroler hardware(gvožđe) je deo projekta u kome se nalaze šeme i dizajn elektronskih ploča bazirane na OPEN SOURCE [Kicad EDA](http://kicad-pcb.org/) (Electronics Design Automation) razvojnom okruzenju.
 
 ## Instalacija
 

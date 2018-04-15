@@ -1,6 +1,6 @@
-update=08/21/17 03:17:59
+update=4/12/2018 3:21:00 AM
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -59,5 +59,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=F:/Documents/KiCad/Projects/Spojko/project_libs/promini
-LibName32=vrelay
+LibName31=E:/Documents/KiCad/GitHub/project_libs/promini
