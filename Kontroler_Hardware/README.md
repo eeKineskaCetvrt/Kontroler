@@ -84,5 +84,6 @@ Otvorite šematski prikat zadnji put, generišite sveži NET list, otvorite PCBn
 ## Zaključak
 Ovo sve može zvučati pomalo zbunjujuće u početku, ali vremenom postaje vrlo lako i možete eliminisati neke korake. Na primer, već imamo biblioteku za većinu zajedničkih delova koje upotrebljavamao, kopirajte ove footprint-e pre početka novog projekta. Tokom vremena, kako postaje sve bolji, počet ćete graditi svoje šematske simbole i footprint-e, umesto korišćenja spoljšnih verzija. Kao što sam rekao na početku, nije savršeno, i za mene taj proces radi jako dobro. Ako imate komentare ili predloge o tome da to učinite bolje, kreirajte svoju granu, unapredite, postavite.
 
-###Zahvalnica
-Anool Mahidharia na divnom tekstu!!! Hackaday / *KiCAD Best Practices: Library Management*
+##Zahvalnica
+
+**Anool Mahidharia**, na divnom tekstu!!! Hackaday / *KiCAD Best Practices: Library Management*
