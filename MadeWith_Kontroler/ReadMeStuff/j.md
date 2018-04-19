@@ -11,6 +11,9 @@ Kontroler je skup elektronskih ploča zajedno sa pripadajućim programima.
 Proizašao iz potrebe brzog razvoja novih uređaja i sistema koristeći nove miniPC(Raspberry Pi, BananaPi, Asus Tinker Board) i mikrokontroler(Arduino, ESP) platforme.
 
 
+
+
+
 Zašto smo se opredelili za open-hardware i open-software?
 
 
