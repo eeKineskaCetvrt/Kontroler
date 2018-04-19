@@ -61,20 +61,6 @@ Brzi prototip može dovesti do brzog neuspeha ali svakim novim experimentom se u
 
 
 
-
-
-**Meritokratija**
-
-U meritokratiji, najbolje ideje pobeđuju. Svako ima pristup istim informacijama a uspešnost projekta uslovljena je prihvatanjem od strane zajednice koja shodno tome i trud ulaže.
-
-```sh
-
-Meritokratija je vođstvo, teorijski zasnovano na zaslugama, talentu, veštini, inteligenciji i drugim relevantnim veštinama, pre nego na nasleđu(aristokratija), bogatstvuu(plutokratija) ili volji većine(demokratija).
-
-```
-
-
-
 **Zajednica**
 
 Zajednice se osnivaju oko zajedničkih interesa. One donose raznovrsnost ideja i dele posao. Zajedno, globalna zajednica može kreirati van domašaja pojedinca. Množi se napor i deli se posao.
