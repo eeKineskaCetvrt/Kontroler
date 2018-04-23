@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Spojko-rescue:+24V
+# +24V
 #
-DEF Spojko-rescue:+24V #PWR 0 0 Y Y 1 F P
+DEF +24V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Spojko-rescue:+24V" 0 140 50 H V C CNN
+F1 "+24V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +24V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:BSS138
+# BSS138
 #
-DEF Spojko-rescue:BSS138 Q 0 0 Y Y 1 F N
+DEF BSS138 Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Spojko-rescue:BSS138" 200 0 50 H V L CNN
+F1 "BSS138" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -49,11 +49,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:C
+# C
 #
-DEF Spojko-rescue:C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Spojko-rescue:C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -67,11 +67,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:CONN_01X02
+# CONN_01X02
 #
-DEF Spojko-rescue:CONN_01X02 J 0 40 Y N 1 F N
+DEF CONN_01X02 J 0 40 Y N 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "Spojko-rescue:CONN_01X02" 100 0 50 V V C CNN
+F1 "CONN_01X02" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -89,11 +89,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:CONN_01X06
+# CONN_01X06
 #
-DEF Spojko-rescue:CONN_01X06 J 0 40 Y N 1 F N
+DEF CONN_01X06 J 0 40 Y N 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "Spojko-rescue:CONN_01X06" 100 0 50 V V C CNN
+F1 "CONN_01X06" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -119,11 +119,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:CONN_02X40
+# CONN_02X40
 #
-DEF Spojko-rescue:CONN_02X40 J 0 1 Y N 1 F N
+DEF CONN_02X40 J 0 1 Y N 1 F N
 F0 "J" 0 2050 50 H V C CNN
-F1 "Spojko-rescue:CONN_02X40" 0 0 50 V V C CNN
+F1 "CONN_02X40" 0 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -297,11 +297,11 @@ X P9 9 -250 1550 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:CP
+# CP
 #
-DEF Spojko-rescue:CP C 0 10 N Y 1 F N
+DEF CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Spojko-rescue:CP" 25 -100 50 H V L CNN
+F1 "CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -320,11 +320,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:DHT11
+# DHT11
 #
-DEF Spojko-rescue:DHT11 U 0 40 Y Y 1 F N
+DEF DHT11 U 0 40 Y Y 1 F N
 F0 "U" 150 250 50 H V C CNN
-F1 "Spojko-rescue:DHT11" 100 -250 50 H V C CNN
+F1 "DHT11" 100 -250 50 H V C CNN
 F2 "" 150 250 50 H I C CNN
 F3 "" 150 250 50 H I C CNN
 DRAW
@@ -335,11 +335,11 @@ X GND 4 -100 -300 100 U 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:ESP-12E
+# ESP-12E
 #
-DEF Spojko-rescue:ESP-12E U 0 40 Y Y 1 F N
+DEF ESP-12E U 0 40 Y Y 1 F N
 F0 "U" 0 -100 50 H V C CNN
-F1 "Spojko-rescue:ESP-12E" 0 100 50 H V C CNN
+F1 "ESP-12E" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -373,11 +373,11 @@ X GND 9 900 -400 300 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:GND
+# GND
 #
-DEF Spojko-rescue:GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Spojko-rescue:GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -386,11 +386,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:Jumper_NO_Small
+# Jumper_NO_Small
 #
-DEF Spojko-rescue:Jumper_NO_Small JP 0 30 N N 1 F N
+DEF Jumper_NO_Small JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "Spojko-rescue:Jumper_NO_Small" 10 -60 50 H V C CNN
+F1 "Jumper_NO_Small" 10 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -401,11 +401,11 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:R
+# R
 #
-DEF Spojko-rescue:R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Spojko-rescue:R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -419,11 +419,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:Raspberry_Pi
+# Raspberry_Pi
 #
-DEF Spojko-rescue:Raspberry_Pi P 0 40 Y Y 1 F N
+DEF Raspberry_Pi P 0 40 Y Y 1 F N
 F0 "P" -1100 1950 60 H V C CNN
-F1 "Spojko-rescue:Raspberry_Pi" 500 -1450 60 H V C CNN
+F1 "Raspberry_Pi" 500 -1450 60 H V C CNN
 F2 "" 600 0 60 H V C CNN
 F3 "" 600 0 60 H V C CNN
 DRAW
@@ -471,11 +471,11 @@ X GND 9 -1450 950 299 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:SW_Push
+# SW_Push
 #
-DEF Spojko-rescue:SW_Push SW 0 40 N N 1 F N
+DEF SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Spojko-rescue:SW_Push" 0 -60 50 H V C CNN
+F1 "SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -488,27 +488,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Spojko-rescue:vLM2596
+# VSOURCE-pspice
 #
-DEF Spojko-rescue:vLM2596 U 0 40 Y Y 1 F N
-F0 "U" -950 300 60 H V C CNN
-F1 "Spojko-rescue:vLM2596" -850 -350 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -1050 250 950 -250 0 1 0 N
-X GND 1 -1250 -150 200 R 50 50 1 1 W
-X 24V_In 2 -1250 150 200 R 50 50 1 1 W
-X GND 3 1150 -150 200 L 50 50 1 1 w
-X 5V_Out 4 1150 150 200 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# pspice:VSOURCE
-#
-DEF pspice:VSOURCE V 0 40 Y Y 1 F N
+DEF VSOURCE-pspice V 0 40 Y Y 1 F N
 F0 "V" -250 300 50 H V C CNN
-F1 "pspice:VSOURCE" 0 0 50 H V C CNN
+F1 "VSOURCE-pspice" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -518,6 +502,22 @@ P 2 0 1 0 -250 -250 -250 150 F
 P 3 0 1 0 -300 150 -250 250 -200 150 F
 X E1 1 0 300 100 D 50 50 1 1 I
 X E2 2 0 -300 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# vLM2596
+#
+DEF vLM2596 U 0 40 Y Y 1 F N
+F0 "U" -950 300 60 H V C CNN
+F1 "vLM2596" -850 -350 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -1050 250 950 -250 0 1 0 N
+X GND 1 -1250 -150 200 R 50 50 1 1 W
+X 24V_In 2 -1250 150 200 R 50 50 1 1 W
+X GND 3 1150 -150 200 L 50 50 1 1 w
+X 5V_Out 4 1150 150 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #

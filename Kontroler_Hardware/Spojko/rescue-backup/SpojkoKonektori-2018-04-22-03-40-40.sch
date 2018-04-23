@@ -1,6 +1,46 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
 LIBS:Spojko-cache
-EELAYER 26 0
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
+LIBS:Symbols_EN60617_13Mar2013
+LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
+LIBS:Symbols_ICs-Diskrete_RevD10
+LIBS:Symbols_ICs-Opto_RevB_16Sep2013
+LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
+LIBS:Symbols_Socket-DIN41612_RevA
+LIBS:Symbols_Transformer-Diskrete_RevA
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
+LIBS:switches
+LIBS:sensors
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -123,7 +163,7 @@ Text GLabel 2400 1900 2    60   Input ~ 0
 Text GLabel 2300 2000 2    60   Input ~ 0
 GND24V
 $Comp
-L Spojko-rescue:CONN_02X40 J5
+L CONN_02X40 J5
 U 1 1 598AAAFA
 P 5150 3650
 F 0 "J5" H 5150 5700 50  0000 C CNN
@@ -134,7 +174,7 @@ F 3 "" H 5150 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Spojko-rescue:CONN_02X40 J6
+L CONN_02X40 J6
 U 1 1 598AAB65
 P 6750 3650
 F 0 "J6" H 6750 5700 50  0000 C CNN
@@ -145,7 +185,7 @@ F 3 "" H 6750 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Spojko-rescue:Jumper_NO_Small JP10
+L Jumper_NO_Small JP10
 U 1 1 598AABDE
 P 1150 3700
 F 0 "JP10" H 1150 3780 50  0000 R TNN
@@ -156,7 +196,7 @@ F 3 "" H 1150 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Spojko-rescue:Jumper_NO_Small JP9
+L Jumper_NO_Small JP9
 U 1 1 598AABE5
 P 1150 3600
 F 0 "JP9" H 1150 3680 50  0000 R TNN
@@ -167,7 +207,7 @@ F 3 "" H 1150 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Spojko-rescue:Jumper_NO_Small JP8
+L Jumper_NO_Small JP8
 U 1 1 598AABEC
 P 1150 3500
 F 0 "JP8" H 1150 3580 50  0000 R TNN
@@ -178,7 +218,7 @@ F 3 "" H 1150 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Spojko-rescue:Jumper_NO_Small JP7
+L Jumper_NO_Small JP7
 U 1 1 598AABF3
 P 1150 3400
 F 0 "JP7" H 1150 3480 50  0000 R TNN
@@ -189,7 +229,7 @@ F 3 "" H 1150 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Spojko-rescue:Jumper_NO_Small JP6
+L Jumper_NO_Small JP6
 U 1 1 598AABFA
 P 1150 3300
 F 0 "JP6" H 1150 3380 50  0000 R TNN
@@ -200,7 +240,7 @@ F 3 "" H 1150 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Spojko-rescue:Jumper_NO_Small JP5
+L Jumper_NO_Small JP5
 U 1 1 598AAC01
 P 1150 3200
 F 0 "JP5" H 1150 3280 50  0000 R TNN
@@ -211,7 +251,7 @@ F 3 "" H 1150 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Spojko-rescue:Jumper_NO_Small JP4
+L Jumper_NO_Small JP4
 U 1 1 598AAC08
 P 1150 3100
 F 0 "JP4" H 1150 3180 50  0000 R TNN
@@ -222,7 +262,7 @@ F 3 "" H 1150 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Spojko-rescue:Jumper_NO_Small JP3
+L Jumper_NO_Small JP3
 U 1 1 598AAC0F
 P 1150 3000
 F 0 "JP3" H 1150 3080 50  0000 R TNN
@@ -237,7 +277,7 @@ GND
 Text GLabel 2400 2900 2    60   Input ~ 0
 GND
 $Comp
-L Spojko-rescue:CONN_02X40 J8
+L CONN_02X40 J8
 U 1 1 598AAE03
 P 10400 3650
 F 0 "J8" H 10400 5700 50  0000 C CNN
@@ -252,7 +292,7 @@ Spojko konektor pinouts
 Text Notes 9550 1150 0    118  ~ 0
 Produzetak Spojka\n
 $Comp
-L Spojko-rescue:CONN_02X40 J4
+L CONN_02X40 J4
 U 1 1 598AAA8F
 P 3550 3650
 F 0 "J4" H 3550 5700 50  0000 C CNN
@@ -263,7 +303,7 @@ F 3 "" H 3550 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Spojko-rescue:CONN_02X40 J3
+L CONN_02X40 J3
 U 1 1 598AAA14
 P 1950 3650
 F 0 "J3" H 1950 5700 50  0000 C CNN
@@ -1306,7 +1346,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 1700 10800 1700
 $Comp
-L Spojko-rescue:CONN_02X40 J7
+L CONN_02X40 J7
 U 1 1 59974E4B
 P 8400 3650
 F 0 "J7" H 8400 5700 50  0000 C CNN

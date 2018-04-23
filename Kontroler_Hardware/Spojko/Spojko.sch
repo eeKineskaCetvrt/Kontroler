@@ -1,46 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:Spojko-cache
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
-LIBS:switches
-LIBS:sensors
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -63,7 +23,7 @@ F2 "24V_In" I L 2000 1150 60
 F3 "5V_Out" I R 3450 1150 60 
 $EndSheet
 $Comp
-L Raspberry_Pi P1
+L Spojko-rescue:Raspberry_Pi P1
 U 1 1 5983D0F7
 P 3900 4900
 F 0 "P1" H 2800 6850 60  0000 C CNN
@@ -74,7 +34,7 @@ F 3 "" H 4500 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 J1
+L Spojko-rescue:CONN_01X02 J1
 U 1 1 598505AA
 P 1350 1700
 F 0 "J1" H 1350 1850 50  0000 C CNN
@@ -85,7 +45,7 @@ F 3 "" H 1350 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +24V #PWR01
+L Spojko-rescue:+24V #PWR01
 U 1 1 598506CD
 P 1000 1300
 F 0 "#PWR01" H 1000 1150 50  0001 C CNN
@@ -96,7 +56,7 @@ F 3 "" H 1000 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +24V #PWR02
+L Spojko-rescue:+24V #PWR02
 U 1 1 598513FD
 P 1850 1050
 F 0 "#PWR02" H 1850 900 50  0001 C CNN
@@ -163,7 +123,7 @@ GPIO18
 Text GLabel 5150 6000 2    60   Input ~ 0
 GPIO25
 $Comp
-L BSS138 Q2
+L Spojko-rescue:BSS138 Q2
 U 1 1 5988C15D
 P 9000 2900
 F 0 "Q2" H 9200 2975 50  0000 L CNN
@@ -178,7 +138,7 @@ SDA
 Text GLabel 7900 3450 0    60   Input ~ 0
 SCL
 $Comp
-L BSS138 Q1
+L Spojko-rescue:BSS138 Q1
 U 1 1 5988D7F6
 P 8600 3350
 F 0 "Q1" H 8800 3425 50  0000 L CNN
@@ -189,7 +149,7 @@ F 3 "" H 8600 3350 50  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper_NO_Small JP2
+L Spojko-rescue:Jumper_NO_Small JP2
 U 1 1 5988ED75
 P 8200 3000
 F 0 "JP2" H 8200 3080 50  0000 R TNN
@@ -200,7 +160,7 @@ F 3 "" H 8200 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP1
+L Spojko-rescue:Jumper_NO_Small JP1
 U 1 1 5988EE7A
 P 8150 3450
 F 0 "JP1" H 8150 3530 50  0000 R TNN
@@ -217,7 +177,7 @@ SCL1
 Text GLabel 9750 2500 2    60   Input ~ 0
 +5V
 $Comp
-L R R3
+L Spojko-rescue:R R3
 U 1 1 59890105
 P 9400 3200
 F 0 "R3" V 9480 3200 50  0000 C CNN
@@ -228,7 +188,7 @@ F 3 "" H 9400 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L Spojko-rescue:R R4
 U 1 1 598901B2
 P 9600 2800
 F 0 "R4" V 9680 2800 50  0000 C CNN
@@ -247,7 +207,7 @@ F0 "SheetSpojkoKonektori" 60
 F1 "SpojkoKonektori.sch" 60
 $EndSheet
 $Comp
-L ESP-12E U1
+L Spojko-rescue:ESP-12E U1
 U 1 1 598AF9FB
 P 8750 5000
 F 0 "U1" H 8200 5700 50  0000 C CNN
@@ -258,7 +218,7 @@ F 3 "" H 8750 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C4
+L Spojko-rescue:CP C4
 U 1 1 598A3011
 P 6650 1200
 F 0 "C4" V 6500 1150 50  0000 L CNN
@@ -269,7 +229,7 @@ F 3 "" H 6650 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C5
+L Spojko-rescue:C C5
 U 1 1 598A30B2
 P 6650 1500
 F 0 "C5" V 6800 1450 50  0000 L CNN
@@ -282,7 +242,7 @@ $EndComp
 Text Notes 850  700  0    118  ~ 0
 Spojko napajanja\n
 $Comp
-L SW_Push SW1
+L Spojko-rescue:SW_Push SW1
 U 1 1 598FB508
 P 7100 4700
 F 0 "SW1" H 7150 4800 50  0000 L CNN
@@ -293,7 +253,7 @@ F 3 "" H 7100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Push SW2
+L Spojko-rescue:SW_Push SW2
 U 1 1 598FB5DB
 P 10300 5100
 F 0 "SW2" H 10350 5200 50  0000 L CNN
@@ -304,7 +264,7 @@ F 3 "" H 10300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Spojko-rescue:R R1
 U 1 1 598FB759
 P 7450 5050
 F 0 "R1" V 7530 5050 50  0000 C CNN
@@ -319,7 +279,7 @@ GND
 Text GLabel 10600 5900 3    60   Input ~ 0
 GND
 $Comp
-L R R2
+L Spojko-rescue:R R2
 U 1 1 598FC9D7
 P 7650 5050
 F 0 "R2" V 7730 5050 50  0000 C CNN
@@ -330,7 +290,7 @@ F 3 "" H 7650 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Spojko-rescue:R R6
 U 1 1 598FCC56
 P 10050 5350
 F 0 "R6" V 10130 5350 50  0000 C CNN
@@ -343,7 +303,7 @@ $EndComp
 Text GLabel 10050 5850 3    60   Input ~ 0
 +3V3
 $Comp
-L R R5
+L Spojko-rescue:R R5
 U 1 1 598FD30F
 P 9850 5450
 F 0 "R5" V 9930 5450 50  0000 C CNN
@@ -354,7 +314,7 @@ F 3 "" H 9850 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 J2
+L Spojko-rescue:CONN_01X06 J2
 U 1 1 598FDB37
 P 1700 7200
 F 0 "J2" H 1700 7550 50  0000 C CNN
@@ -381,7 +341,7 @@ I2C 3V3 na 5V
 Text Notes 8750 1050 0    118  ~ 0
 Spojko konektor pinout
 $Comp
-L DHT11 U6
+L Spojko-rescue:DHT11 U6
 U 1 1 5990897F
 P 1650 3600
 F 0 "U6" V 1400 3450 50  0000 C CNN
@@ -396,7 +356,7 @@ GND
 Text GLabel 1150 3500 0    60   Input ~ 0
 GND
 $Comp
-L R R9
+L Spojko-rescue:R R9
 U 1 1 5990A619
 P 2100 3800
 F 0 "R9" V 2180 3800 50  0000 C CNN
@@ -425,7 +385,7 @@ GND
 Text Notes 6000 1400 0    60   ~ 0
 Bypass C\nESP
 $Comp
-L CP C1
+L Spojko-rescue:CP C1
 U 1 1 59A73070
 P 5350 1200
 F 0 "C1" V 5200 1150 50  0000 L CNN
@@ -436,7 +396,7 @@ F 3 "" H 5350 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C2
+L Spojko-rescue:C C2
 U 1 1 59A73076
 P 5350 1500
 F 0 "C2" V 5500 1450 50  0000 L CNN
@@ -451,7 +411,7 @@ GND
 Text Notes 4700 1400 0    60   ~ 0
 Bypass C\nMCU
 $Comp
-L C C3
+L Spojko-rescue:C C3
 U 1 1 59A741DA
 P 5350 1800
 F 0 "C3" V 5500 1750 50  0000 L CNN
@@ -462,7 +422,7 @@ F 3 "" H 5350 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C6
+L Spojko-rescue:C C6
 U 1 1 59A775AE
 P 6650 1800
 F 0 "C6" V 6800 1750 50  0000 L CNN
@@ -473,7 +433,7 @@ F 3 "" H 6650 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP C7
+L Spojko-rescue:CP C7
 U 1 1 59A8B614
 P 8050 1500
 F 0 "C7" V 7900 1450 50  0000 L CNN
@@ -503,7 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 1800 1000 1750
 Wire Wire Line
-	1000 1750 1150 1750
+	1000 1750 1100 1750
 Wire Wire Line
 	3750 1600 3450 1600
 Wire Wire Line
@@ -547,9 +507,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 3000 8800 3000
 Wire Wire Line
-	9200 3000 9750 3000
+	9200 3000 9600 3000
 Wire Wire Line
-	8800 3450 9750 3450
+	8800 3450 9400 3450
 Wire Wire Line
 	9400 3350 9400 3450
 Connection ~ 9400 3450
@@ -559,12 +519,12 @@ Connection ~ 9600 3000
 Wire Wire Line
 	9400 3050 9400 2500
 Wire Wire Line
-	9400 2500 9750 2500
+	9400 2500 9600 2500
 Wire Wire Line
 	9600 2650 9600 2500
 Connection ~ 9600 2500
 Wire Wire Line
-	8350 2500 8950 2500
+	8350 2500 8550 2500
 Wire Wire Line
 	8550 2500 8550 3150
 Wire Wire Line
@@ -584,7 +544,7 @@ Connection ~ 7450 5400
 Wire Wire Line
 	7450 4900 7450 4700
 Wire Wire Line
-	7300 4700 7850 4700
+	7300 4700 7450 4700
 Connection ~ 7450 4700
 Wire Wire Line
 	10100 5100 9650 5100
@@ -600,7 +560,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 5700 9850 5700
 Wire Wire Line
-	9850 5600 9850 5850
+	9850 5600 9850 5700
 Connection ~ 9850 5700
 Wire Wire Line
 	9850 5300 9650 5300
@@ -643,9 +603,9 @@ Wire Notes Line
 Wire Notes Line
 	10850 1050 8750 1050
 Wire Wire Line
-	1950 3500 2450 3500
+	1950 3500 2100 3500
 Wire Wire Line
-	2350 3900 2350 4700
+	2350 3900 2350 3950
 Wire Wire Line
 	2350 3950 2350 3850
 Wire Wire Line
@@ -656,7 +616,7 @@ Connection ~ 2100 3500
 Wire Wire Line
 	2100 3950 1650 3950
 Wire Wire Line
-	1650 3900 1650 4150
+	1650 3900 1650 3950
 Connection ~ 1650 3950
 Wire Wire Line
 	5150 5600 5000 5600
@@ -679,45 +639,45 @@ Wire Wire Line
 Wire Wire Line
 	5200 1200 5150 1200
 Wire Wire Line
-	5150 1200 5150 1800
+	5150 1200 5150 1500
 Wire Wire Line
 	5150 1800 5200 1800
 Wire Wire Line
-	5050 1500 5200 1500
+	5050 1500 5150 1500
 Connection ~ 5150 1500
 Wire Wire Line
 	5500 1200 5550 1200
 Wire Wire Line
-	5550 1200 5550 1800
+	5550 1200 5550 1500
 Wire Wire Line
 	5550 1800 5500 1800
 Wire Wire Line
-	5500 1500 5650 1500
+	5500 1500 5550 1500
 Connection ~ 5550 1500
 Wire Wire Line
 	6500 1200 6450 1200
 Wire Wire Line
-	6450 1200 6450 1800
+	6450 1200 6450 1500
 Wire Wire Line
 	6450 1800 6500 1800
 Wire Wire Line
-	6350 1500 6500 1500
+	6350 1500 6450 1500
 Connection ~ 6450 1500
 Wire Wire Line
 	6800 1200 6850 1200
 Wire Wire Line
-	6850 1200 6850 1800
+	6850 1200 6850 1500
 Wire Wire Line
 	6850 1800 6800 1800
 Wire Wire Line
-	6800 1500 6950 1500
+	6800 1500 6850 1500
 Connection ~ 6850 1500
 Wire Wire Line
 	7750 1500 7900 1500
 Wire Wire Line
 	8200 1500 8350 1500
 Wire Wire Line
-	2200 3150 2450 3150
+	2200 3150 2300 3150
 Wire Wire Line
 	2300 3250 2300 3150
 Connection ~ 2300 3150
@@ -730,7 +690,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 1150 1850 1150
 Wire Wire Line
-	1850 1050 1850 2050
+	1850 1050 1850 1150
 Wire Wire Line
 	1850 2050 2000 2050
 Connection ~ 1850 1150
@@ -746,7 +706,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 5200 7850 5200
 Wire Wire Line
-	6850 5400 7850 5400
+	6850 5400 7450 5400
 Wire Wire Line
 	10500 5100 10600 5100
 Wire Wire Line
@@ -755,4 +715,91 @@ Text GLabel 5150 4200 2    60   Input ~ 0
 RST
 Wire Wire Line
 	5150 4200 5000 4200
+Wire Wire Line
+	2350 3950 2350 4050
+Wire Wire Line
+	2350 4050 2350 4150
+Wire Wire Line
+	2350 4150 2350 4250
+Wire Wire Line
+	2350 4250 2350 4350
+Wire Wire Line
+	2350 4350 2350 4450
+Wire Wire Line
+	2350 4450 2350 4550
+Wire Wire Line
+	2350 4550 2350 4700
+Wire Wire Line
+	9400 3450 9750 3450
+Wire Wire Line
+	9600 3000 9750 3000
+Wire Wire Line
+	9600 2500 9750 2500
+Wire Wire Line
+	8550 2500 8950 2500
+Wire Wire Line
+	7450 5400 7650 5400
+Wire Wire Line
+	7450 4700 7850 4700
+Wire Wire Line
+	7650 5400 7850 5400
+Wire Wire Line
+	9850 5700 9850 5850
+Wire Wire Line
+	2100 3500 2450 3500
+Wire Wire Line
+	1650 3950 1650 4150
+Wire Wire Line
+	5150 1500 5150 1800
+Wire Wire Line
+	5150 1500 5200 1500
+Wire Wire Line
+	5550 1500 5550 1800
+Wire Wire Line
+	5550 1500 5650 1500
+Wire Wire Line
+	6450 1500 6450 1800
+Wire Wire Line
+	6450 1500 6500 1500
+Wire Wire Line
+	6850 1500 6850 1800
+Wire Wire Line
+	6850 1500 6950 1500
+Wire Wire Line
+	2300 3150 2450 3150
+Wire Wire Line
+	1850 1150 1850 1600
+Wire Wire Line
+	1850 1600 1850 2050
+$Comp
+L pspice:VSOURCE V?
+U 1 1 5ADCA63F
+P 900 2850
+F 0 "V?" H 1128 2896 50  0000 L CNN
+F 1 "VSOURCE" H 1128 2805 50  0000 L CNN
+F 2 "" H 900 2850 50  0001 C CNN
+F 3 "" H 900 2850 50  0001 C CNN
+	1    900  2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1650 900  1650
+Wire Wire Line
+	900  1650 900  2550
+Connection ~ 1000 1650
+Wire Wire Line
+	900  3150 1500 3150
+Wire Wire Line
+	1500 3150 1500 2300
+Wire Wire Line
+	1500 2300 1200 2300
+Wire Wire Line
+	1200 2300 1200 1850
+Wire Wire Line
+	1200 1850 1100 1850
+Wire Wire Line
+	1100 1850 1100 1750
+Connection ~ 1100 1750
+Wire Wire Line
+	1100 1750 1150 1750
 $EndSCHEMATC
