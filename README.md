@@ -1,11 +1,9 @@
 # Kontroler - Open [hardware,software]
 
-
-
-![Kontroler Main](https://github.com/tvlada73/Kontroler/blob/master/ReadMeStuff/Spojko%20ceo%201.png)
-
-
 Kontroler je skup elektronskih ploča zajedno sa pripadajućim programima.
+
+![Kontroler Main](https://github.com/tvlada73/Kontroler/blob/master/ReadMeStuff/3.png)
+
 
 
 Proizašao iz potrebe brzog razvoja novih uređaja i sistema koristeći nove miniPC(Raspberry Pi, BananaPi, Asus Tinker Board) i mikrokontroler(Arduino, ESP) platforme.
