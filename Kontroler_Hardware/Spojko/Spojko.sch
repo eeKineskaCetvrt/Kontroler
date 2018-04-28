@@ -463,8 +463,6 @@ Wire Wire Line
 Wire Wire Line
 	1000 1800 1000 1750
 Wire Wire Line
-	1000 1750 1100 1750
-Wire Wire Line
 	3750 1600 3450 1600
 Wire Wire Line
 	2350 3850 2450 3850
@@ -771,35 +769,6 @@ Wire Wire Line
 	1850 1150 1850 1600
 Wire Wire Line
 	1850 1600 1850 2050
-$Comp
-L pspice:VSOURCE V?
-U 1 1 5ADCA63F
-P 900 2850
-F 0 "V?" H 1128 2896 50  0000 L CNN
-F 1 "VSOURCE" H 1128 2805 50  0000 L CNN
-F 2 "" H 900 2850 50  0001 C CNN
-F 3 "" H 900 2850 50  0001 C CNN
-	1    900  2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1000 1650 900  1650
-Wire Wire Line
-	900  1650 900  2550
-Connection ~ 1000 1650
-Wire Wire Line
-	900  3150 1500 3150
-Wire Wire Line
-	1500 3150 1500 2300
-Wire Wire Line
-	1500 2300 1200 2300
-Wire Wire Line
-	1200 2300 1200 1850
-Wire Wire Line
-	1200 1850 1100 1850
-Wire Wire Line
-	1100 1850 1100 1750
-Connection ~ 1100 1750
-Wire Wire Line
-	1100 1750 1150 1750
+	1000 1750 1150 1750
 $EndSCHEMATC
