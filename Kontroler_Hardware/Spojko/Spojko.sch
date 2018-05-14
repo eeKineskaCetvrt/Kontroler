@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -15,22 +15,24 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2000 1050 1450 200 
+S 2000 1050 1400 700 
 U 597BCBD9
 F0 "Spojko Power Supply" 60
 F1 "PowerSupply5V.sch" 60
-F2 "24V_In" I L 2000 1150 60 
-F3 "5V_Out" I R 3450 1150 60 
+F2 "Out5VMCU" I R 3400 1150 50 
+F3 "In_24V" I L 2000 1200 50 
+F4 "Out5V" I R 3400 1400 50 
+F5 "Out_3V3" I R 3400 1650 50 
 $EndSheet
 $Comp
 L Spojko-rescue:Raspberry_Pi P1
 U 1 1 5983D0F7
-P 3900 4900
-F 0 "P1" H 2800 6850 60  0000 C CNN
-F 1 "Raspberry_Pi" H 4400 3450 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 3100 4200 60  0001 C CNN
-F 3 "" H 4500 4900 60  0000 C CNN
-	1    3900 4900
+P 3600 4800
+F 0 "P1" H 2500 6750 60  0000 C CNN
+F 1 "Raspberry_Pi" H 4100 3350 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 2800 4100 60  0001 C CNN
+F 3 "" H 4200 4800 60  0000 C CNN
+	1    3600 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -68,27 +70,11 @@ F 3 "" H 1850 1050 50  0001 C CNN
 $EndComp
 Text GLabel 3750 1150 2    60   Input ~ 0
 5VMCU
-Text GLabel 2200 3150 0    60   Input ~ 0
+Text GLabel 1900 3050 0    60   Input ~ 0
 5VMCU
-$Sheet
-S 2000 1500 1450 200 
-U 598550DE
-F0 "Napajanje_5V" 60
-F1 "Power_5V.sch" 60
-F2 "In_24V" I L 2000 1600 60 
-F3 "Out_5V" I R 3450 1600 60 
-$EndSheet
-$Sheet
-S 2000 1950 1450 200 
-U 59855117
-F0 "Power_3V3" 60
-F1 "Napajanje_3V3.sch" 60
-F2 "In_24V" I L 2000 2050 60 
-F3 "Out_3V3" I R 3450 2050 60 
-$EndSheet
-Text GLabel 3750 1600 2    60   Input ~ 0
+Text GLabel 3750 1400 2    60   Input ~ 0
 +5V
-Text GLabel 3750 2050 2    60   Input ~ 0
+Text GLabel 3750 1650 2    60   Input ~ 0
 +3V3
 Text GLabel 6850 5400 0    60   Input ~ 0
 +3V3
@@ -102,25 +88,25 @@ Text GLabel 9900 4700 2    60   Input ~ 0
 TXD
 Text GLabel 9900 4800 2    60   Input ~ 0
 RXD
-Text GLabel 5150 3100 2    60   Input ~ 0
+Text GLabel 4850 3000 2    60   Input ~ 0
 SDA
-Text GLabel 5150 3200 2    60   Input ~ 0
+Text GLabel 4850 3100 2    60   Input ~ 0
 SCL
-Text GLabel 5150 3450 2    60   Input ~ 0
+Text GLabel 4850 3350 2    60   Input ~ 0
 TXD
-Text GLabel 5150 3550 2    60   Input ~ 0
+Text GLabel 4850 3450 2    60   Input ~ 0
 RXD
-Text GLabel 5150 4900 2    60   Input ~ 0
+Text GLabel 4850 4800 2    60   Input ~ 0
 GPIO12
-Text GLabel 5150 5900 2    60   Input ~ 0
+Text GLabel 4850 5800 2    60   Input ~ 0
 GPIO24
-Text GLabel 5150 5100 2    60   Input ~ 0
+Text GLabel 4850 5000 2    60   Input ~ 0
 GPIO16
-Text GLabel 5150 5800 2    60   Input ~ 0
+Text GLabel 4850 5700 2    60   Input ~ 0
 GPIO23
-Text GLabel 5150 5300 2    60   Input ~ 0
+Text GLabel 4850 5200 2    60   Input ~ 0
 GPIO18
-Text GLabel 5150 6000 2    60   Input ~ 0
+Text GLabel 4850 5900 2    60   Input ~ 0
 GPIO25
 $Comp
 L Spojko-rescue:BSS138 Q2
@@ -128,7 +114,7 @@ U 1 1 5988C15D
 P 9000 2900
 F 0 "Q2" H 9200 2975 50  0000 L CNN
 F 1 "BSS138" H 9200 2900 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 9200 2825 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9200 2825 50  0001 L CIN
 F 3 "" H 9000 2900 50  0001 L CNN
 	1    9000 2900
 	0    1    1    0   
@@ -143,7 +129,7 @@ U 1 1 5988D7F6
 P 8600 3350
 F 0 "Q1" H 8800 3425 50  0000 L CNN
 F 1 "BSS138" H 8800 3350 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8800 3275 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 3275 50  0001 L CIN
 F 3 "" H 8600 3350 50  0001 L CNN
 	1    8600 3350
 	0    1    1    0   
@@ -212,7 +198,7 @@ U 1 1 598AF9FB
 P 8750 5000
 F 0 "U1" H 8200 5700 50  0000 C CNN
 F 1 "ESP-12E" H 8750 5450 50  0000 C CNN
-F 2 "project_footprints:ESP-12E" H 8750 5000 50  0001 C CNN
+F 2 "lib_fp:ESP-12E" H 8750 5000 50  0001 C CNN
 F 3 "" H 8750 5000 50  0001 C CNN
 	1    8750 5000
 	1    0    0    -1  
@@ -269,7 +255,7 @@ U 1 1 598FB759
 P 7450 5050
 F 0 "R1" V 7530 5050 50  0000 C CNN
 F 1 "10K" V 7450 5050 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 7380 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7380 5050 50  0001 C CNN
 F 3 "" H 7450 5050 50  0001 C CNN
 	1    7450 5050
 	1    0    0    -1  
@@ -284,7 +270,7 @@ U 1 1 598FC9D7
 P 7650 5050
 F 0 "R2" V 7730 5050 50  0000 C CNN
 F 1 "10K" V 7650 5050 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 7580 5050 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7580 5050 50  0001 C CNN
 F 3 "" H 7650 5050 50  0001 C CNN
 	1    7650 5050
 	1    0    0    -1  
@@ -308,7 +294,7 @@ U 1 1 598FD30F
 P 9850 5450
 F 0 "R5" V 9930 5450 50  0000 C CNN
 F 1 "10K" V 9850 5450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9780 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 5450 50  0001 C CNN
 F 3 "" H 9850 5450 50  0001 C CNN
 	1    9850 5450
 	1    0    0    -1  
@@ -343,38 +329,38 @@ Spojko konektor pinout
 $Comp
 L Spojko-rescue:DHT11 U6
 U 1 1 5990897F
-P 1650 3600
-F 0 "U6" V 1400 3450 50  0000 C CNN
-F 1 "DHT11" H 1750 3350 50  0000 C CNN
-F 2 "project_footprints:DHT22_Temperature_Humidity" H 1800 3850 50  0001 C CNN
-F 3 "" H 1800 3850 50  0001 C CNN
-	1    1650 3600
+P 1350 3500
+F 0 "U6" V 1100 3350 50  0000 C CNN
+F 1 "DHT11" H 1450 3250 50  0000 C CNN
+F 2 "lib_fp:DHT22_Temperature_Humidity" H 1500 3750 50  0001 C CNN
+F 3 "" H 1500 3750 50  0001 C CNN
+	1    1350 3500
 	0    1    1    0   
 $EndComp
-Text GLabel 2350 4700 3    60   Input ~ 0
+Text GLabel 2050 4600 3    60   Input ~ 0
 GND
-Text GLabel 1150 3500 0    60   Input ~ 0
+Text GLabel 850  3400 0    60   Input ~ 0
 GND
 $Comp
 L Spojko-rescue:R R9
 U 1 1 5990A619
-P 2100 3800
-F 0 "R9" V 2180 3800 50  0000 C CNN
-F 1 "10K" V 2100 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 2030 3800 50  0001 C CNN
-F 3 "" H 2100 3800 50  0001 C CNN
-	1    2100 3800
+P 1800 3700
+F 0 "R9" V 1880 3700 50  0000 C CNN
+F 1 "10K" V 1800 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 1730 3700 50  0001 C CNN
+F 3 "" H 1800 3700 50  0001 C CNN
+	1    1800 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5150 5600 2    60   Input ~ 0
+Text GLabel 4850 5500 2    60   Input ~ 0
 GPIO21
-Text GLabel 1650 4150 3    60   Input ~ 0
+Text GLabel 1350 4050 3    60   Input ~ 0
 GPIO26
 Text GLabel 6950 5200 0    60   Input ~ 0
 GPIO26
-Text GLabel 5150 5500 2    60   Input ~ 0
+Text GLabel 4850 5400 2    60   Input ~ 0
 GPIO20
-Text GLabel 5150 6100 2    60   Input ~ 0
+Text GLabel 4850 6000 2    60   Input ~ 0
 GPIO26
 Text GLabel 1000 1800 3    60   Input ~ 0
 GND24V
@@ -449,13 +435,13 @@ Text GLabel 7750 1500 0    60   Input ~ 0
 GND
 Text Notes 7450 1400 0    60   ~ 0
 Bypass C\n+5V
-Connection ~ 2350 3950
-Connection ~ 2350 4050
-Connection ~ 2350 4150
-Connection ~ 2350 4250
-Connection ~ 2350 4350
-Connection ~ 2350 4450
-Connection ~ 2350 4550
+Connection ~ 2050 3850
+Connection ~ 2050 3950
+Connection ~ 2050 4050
+Connection ~ 2050 4150
+Connection ~ 2050 4250
+Connection ~ 2050 4350
+Connection ~ 2050 4450
 Wire Wire Line
 	1150 1650 1000 1650
 Wire Wire Line
@@ -463,23 +449,21 @@ Wire Wire Line
 Wire Wire Line
 	1000 1800 1000 1750
 Wire Wire Line
-	3750 1600 3450 1600
+	2050 3750 2150 3750
 Wire Wire Line
-	2350 3850 2450 3850
+	2050 3850 2150 3850
 Wire Wire Line
-	2350 3950 2450 3950
+	2050 3950 2150 3950
 Wire Wire Line
-	2350 4050 2450 4050
+	2050 4050 2150 4050
 Wire Wire Line
-	2350 4150 2450 4150
+	2050 4150 2150 4150
 Wire Wire Line
-	2350 4250 2450 4250
+	2050 4250 2150 4250
 Wire Wire Line
-	2350 4350 2450 4350
+	2050 4350 2150 4350
 Wire Wire Line
-	2350 4450 2450 4450
-Wire Wire Line
-	2350 4550 2450 4550
+	2050 4450 2150 4450
 Wire Wire Line
 	9900 4700 9650 4700
 Wire Wire Line
@@ -489,13 +473,13 @@ Wire Wire Line
 Wire Wire Line
 	9900 5000 9650 5000
 Wire Wire Line
-	5000 3100 5150 3100
+	4700 3000 4850 3000
 Wire Wire Line
-	5000 3200 5150 3200
+	4700 3100 4850 3100
 Wire Wire Line
-	5000 3450 5150 3450
+	4700 3350 4850 3350
 Wire Wire Line
-	5000 3550 5150 3550
+	4700 3450 4850 3450
 Wire Wire Line
 	7900 3450 8050 3450
 Wire Wire Line
@@ -531,7 +515,7 @@ Connection ~ 8550 2500
 Wire Wire Line
 	9650 5400 9650 5700
 Wire Wire Line
-	2300 3250 2450 3250
+	2000 3150 2150 3150
 Wire Notes Line
 	850  750  850  2450
 Wire Notes Line
@@ -601,39 +585,35 @@ Wire Notes Line
 Wire Notes Line
 	10850 1050 8750 1050
 Wire Wire Line
-	1950 3500 2100 3500
+	1650 3400 1800 3400
 Wire Wire Line
-	2350 3900 2350 3950
+	850  3400 1050 3400
 Wire Wire Line
-	2350 3950 2350 3850
+	1800 3550 1800 3400
+Connection ~ 1800 3400
 Wire Wire Line
-	1150 3500 1350 3500
+	1800 3850 1350 3850
 Wire Wire Line
-	2100 3650 2100 3500
-Connection ~ 2100 3500
+	1350 3800 1350 3850
+Connection ~ 1350 3850
 Wire Wire Line
-	2100 3950 1650 3950
+	4850 5500 4700 5500
 Wire Wire Line
-	1650 3900 1650 3950
-Connection ~ 1650 3950
+	4850 4800 4700 4800
 Wire Wire Line
-	5150 5600 5000 5600
+	4850 5000 4700 5000
 Wire Wire Line
-	5150 4900 5000 4900
+	4700 5200 4850 5200
 Wire Wire Line
-	5150 5100 5000 5100
+	4700 5400 4850 5400
 Wire Wire Line
-	5000 5300 5150 5300
+	4700 5700 4850 5700
 Wire Wire Line
-	5000 5500 5150 5500
+	4700 5800 4850 5800
 Wire Wire Line
-	5000 5800 5150 5800
+	4700 5900 4850 5900
 Wire Wire Line
-	5000 5900 5150 5900
-Wire Wire Line
-	5000 6000 5150 6000
-Wire Wire Line
-	5150 6100 5000 6100
+	4850 6000 4700 6000
 Wire Wire Line
 	5200 1200 5150 1200
 Wire Wire Line
@@ -675,26 +655,18 @@ Wire Wire Line
 Wire Wire Line
 	8200 1500 8350 1500
 Wire Wire Line
-	2200 3150 2300 3150
+	1900 3050 2000 3050
 Wire Wire Line
-	2300 3250 2300 3150
-Connection ~ 2300 3150
+	2000 3150 2000 3050
+Connection ~ 2000 3050
 Text GLabel 5650 1500 2    60   Input ~ 0
 5VMCU
-Wire Wire Line
-	3750 2050 3450 2050
 Wire Wire Line
 	3750 1150 3450 1150
 Wire Wire Line
 	2000 1150 1850 1150
 Wire Wire Line
 	1850 1050 1850 1150
-Wire Wire Line
-	1850 2050 2000 2050
-Connection ~ 1850 1150
-Wire Wire Line
-	2000 1600 1850 1600
-Connection ~ 1850 1600
 Wire Notes Line
 	850  2450 4300 2450
 Wire Notes Line
@@ -709,24 +681,24 @@ Wire Wire Line
 	10500 5100 10600 5100
 Wire Wire Line
 	10600 5100 10600 5900
-Text GLabel 5150 4200 2    60   Input ~ 0
+Text GLabel 4850 4100 2    60   Input ~ 0
 RST
 Wire Wire Line
-	5150 4200 5000 4200
+	4850 4100 4700 4100
 Wire Wire Line
-	2350 3950 2350 4050
+	2050 3850 2050 3950
 Wire Wire Line
-	2350 4050 2350 4150
+	2050 3950 2050 4050
 Wire Wire Line
-	2350 4150 2350 4250
+	2050 4050 2050 4150
 Wire Wire Line
-	2350 4250 2350 4350
+	2050 4150 2050 4250
 Wire Wire Line
-	2350 4350 2350 4450
+	2050 4250 2050 4350
 Wire Wire Line
-	2350 4450 2350 4550
+	2050 4350 2050 4450
 Wire Wire Line
-	2350 4550 2350 4700
+	2050 4450 2050 4600
 Wire Wire Line
 	9400 3450 9750 3450
 Wire Wire Line
@@ -744,9 +716,9 @@ Wire Wire Line
 Wire Wire Line
 	9850 5700 9850 5850
 Wire Wire Line
-	2100 3500 2450 3500
+	1800 3400 2150 3400
 Wire Wire Line
-	1650 3950 1650 4150
+	1350 3850 1350 4050
 Wire Wire Line
 	5150 1500 5150 1800
 Wire Wire Line
@@ -764,11 +736,13 @@ Wire Wire Line
 Wire Wire Line
 	6850 1500 6950 1500
 Wire Wire Line
-	2300 3150 2450 3150
-Wire Wire Line
-	1850 1150 1850 1600
-Wire Wire Line
-	1850 1600 1850 2050
+	2000 3050 2150 3050
 Wire Wire Line
 	1000 1750 1150 1750
+Wire Wire Line
+	2050 3750 2050 3850
+Wire Wire Line
+	3750 1400 3400 1400
+Wire Wire Line
+	3750 1650 3400 1650
 $EndSCHEMATC

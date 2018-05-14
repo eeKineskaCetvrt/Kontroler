@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SpojkoTamplate-cache)(type Legacy)(uri ${KIPRJMOD}/SpojkoTamplate-cache.lib)(options "")(descr ""))
+  (lib (name SpojkoTamplate-rescue)(type Legacy)(uri ${KIPRJMOD}/SpojkoTamplate-rescue.lib)(options "")(descr ""))
+)

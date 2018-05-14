@@ -20,7 +20,7 @@ U 1 1 59855167
 P 5600 3850
 F 0 "U4" H 4650 4150 60  0000 C CNN
 F 1 "vLM2596" H 4750 3500 60  0000 C CNN
-F 2 "project_footprints:Napajanje_5V" H 5600 3850 60  0001 C CNN
+F 2 "lib_fp:Napajanje_5V" H 5600 3850 60  0001 C CNN
 F 3 "" H 5600 3850 60  0001 C CNN
 	1    5600 3850
 	1    0    0    -1  
@@ -58,9 +58,13 @@ F 3 "" H 4050 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 3700 4350 3700
+	3550 3700 4050 3700
 Connection ~ 4050 3700
 Wire Wire Line
-	3550 4000 4350 4000
+	3550 4000 4050 4000
 Connection ~ 4050 4000
+Wire Wire Line
+	4050 3700 4350 3700
+Wire Wire Line
+	4050 4000 4350 4000
 $EndSCHEMATC
