@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SpojkoTamplate-rescue:Conn_02x14_Odd_Even-Connector_Generic J?
+L SpojkoTamplate-rescue:Conn_02x14_Odd_Even-Connector_Generic J2
 U 1 1 5AE91E89
 P 10700 4300
-F 0 "J?" H 10750 5117 50  0000 C CNN
+F 0 "J2" H 10750 5117 50  0000 C CNN
 F 1 "Conn_02x14_Odd_Even" H 10750 5026 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Horizontal" H 10700 4300 50  0001 C CNN
 F 3 "~" H 10700 4300 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "~" H 10700 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SpojkoTamplate-rescue:Conn_02x20_Odd_Even-Connector_Generic J?
+L SpojkoTamplate-rescue:Conn_02x20_Odd_Even-Connector_Generic J1
 U 1 1 5AE91F36
 P 10700 2150
-F 0 "J?" H 10750 3267 50  0000 C CNN
+F 0 "J1" H 10750 3267 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 10750 3176 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 10700 2150 50  0001 C CNN
 F 3 "~" H 10700 2150 50  0001 C CNN
@@ -278,8 +278,8 @@ $Comp
 L SpojkoTamplate-rescue:Arduino_Nano_v3.x-MCU_Module A1
 U 1 1 5AECBB11
 P 3000 2650
-F 0 "A1" H 2450 3650 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" H 2150 3500 50  0000 C CNN
+F 0 "A1" H 2650 3650 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" V 3000 2650 50  0000 C CNN
 F 2 "Module:Arduino_Nano" H 3150 1700 50  0001 L CNN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 3000 1650 50  0001 C CNN
 	1    3000 2650
