@@ -3,7 +3,7 @@
 Kontroler je skup elektronskih ploča zajedno sa pripadajućim programima.
 ## 
 
-![Kontroler Main](https://github.com/tvlada73/Kontroler/blob/master/ReadMeStuff/Spojko C5.png)
+![Kontroler Main](https://github.com/tvlada73/Kontroler/blob/master/ReadMeStuff/Spojko%20C5.png)
 
 
 
