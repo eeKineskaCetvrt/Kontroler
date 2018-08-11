@@ -21,6 +21,8 @@ F0 "Spojko Power Supply" 60
 F1 "PowerSupply5V.sch" 60
 F2 "Out5VMCU" I R 3400 1150 50 
 F3 "In_24V" I L 2000 1200 50 
+F4 "Out5V" I R 3400 1400 50 
+F5 "Out_3V3" I R 3400 1650 50 
 $EndSheet
 $Comp
 L Spojko-rescue:Raspberry_Pi P1
@@ -70,9 +72,9 @@ Text GLabel 3750 1150 2    60   Input ~ 0
 5VMCU
 Text GLabel 1900 3050 0    60   Input ~ 0
 5VMCU
-Text GLabel 3750 1600 2    60   Input ~ 0
+Text GLabel 3750 1400 2    60   Input ~ 0
 +5V
-Text GLabel 3750 2050 2    60   Input ~ 0
+Text GLabel 3750 1650 2    60   Input ~ 0
 +3V3
 Text GLabel 6850 5400 0    60   Input ~ 0
 +3V3
@@ -739,4 +741,8 @@ Wire Wire Line
 	1000 1750 1150 1750
 Wire Wire Line
 	2050 3750 2050 3850
+Wire Wire Line
+	3750 1400 3400 1400
+Wire Wire Line
+	3750 1650 3400 1650
 $EndSCHEMATC

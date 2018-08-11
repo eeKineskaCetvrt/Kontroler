@@ -26,24 +26,22 @@ Text GLabel 2300 5450 0    60   Input ~ 0
 +3V3
 Text GLabel 2300 5550 0    60   Input ~ 0
 GND
-Text GLabel 2000 3650 0    60   Input ~ 0
+Text GLabel 2000 3550 0    60   Input ~ 0
 SDA
 Text GLabel 2000 3750 0    60   Input ~ 0
 SCL
-Text GLabel 2000 3550 0    60   Input ~ 0
-GND
 Text GLabel 2000 3450 0    60   Input ~ 0
-SDA1
+GND
 Text GLabel 2000 3350 0    60   Input ~ 0
-SCL1
+SDA1
 Text GLabel 2000 3250 0    60   Input ~ 0
-GND
-Text GLabel 2000 3050 0    60   Input ~ 0
-TXD
+SCL1
 Text GLabel 2000 3150 0    60   Input ~ 0
-RXD
-Text GLabel 2000 2950 0    60   Input ~ 0
 GND
+Text GLabel 2000 2850 0    60   Input ~ 0
+TXD
+Text GLabel 2000 3050 0    60   Input ~ 0
+RXD
 Text GLabel 2300 4650 0    60   Input ~ 0
 GND24V
 Text GLabel 2300 4550 0    60   Input ~ 0
@@ -56,7 +54,7 @@ Text GLabel 2300 4850 0    60   Input ~ 0
 GND24V
 Text GLabel 2300 4750 0    60   Input ~ 0
 GND24V
-Text GLabel 2000 2850 0    60   Input ~ 0
+Text GLabel 1100 3100 0    60   Input ~ 0
 RST
 Text GLabel 2000 2750 0    60   Input ~ 0
 GND
@@ -426,348 +424,6 @@ F 3 "~" H 3450 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 2850 4000 2850
-Wire Wire Line
-	3750 3350 4000 3350
-Wire Wire Line
-	3750 3850 4000 3850
-Wire Wire Line
-	3750 2950 4000 2950
-Wire Wire Line
-	3750 3450 4000 3450
-Wire Wire Line
-	3750 3050 4000 3050
-Wire Wire Line
-	3750 3550 4000 3550
-Wire Wire Line
-	3750 3150 4000 3150
-Wire Wire Line
-	3750 3650 4000 3650
-Wire Wire Line
-	3750 2750 4000 2750
-Wire Wire Line
-	3750 3250 4000 3250
-Wire Wire Line
-	3750 3750 4000 3750
-$Comp
-L Spojko-rescue:Conn_02x20_Odd_Even-Connector_Generic J30
-U 1 1 5AF8A194
-P 4200 2850
-F 0 "J30" H 4250 3967 50  0000 C CNN
-F 1 "Conn_02x20" H 4250 3876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4200 2850 50  0001 C CNN
-F 3 "~" H 4200 2850 50  0001 C CNN
-	1    4200 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 2850 4700 2850
-Wire Wire Line
-	4500 3350 4700 3350
-Wire Wire Line
-	4500 3850 4700 3850
-Wire Wire Line
-	4500 2950 4700 2950
-Wire Wire Line
-	4500 3450 4700 3450
-Wire Wire Line
-	4500 3050 4700 3050
-Wire Wire Line
-	4500 3550 4700 3550
-Wire Wire Line
-	4500 3150 4700 3150
-Wire Wire Line
-	4500 3650 4700 3650
-Wire Wire Line
-	4500 2750 4700 2750
-Wire Wire Line
-	4500 3250 4700 3250
-Wire Wire Line
-	4500 3750 4700 3750
-$Comp
-L Spojko-rescue:Conn_02x20_Odd_Even-Connector_Generic J40
-U 1 1 5AF8A220
-P 4900 2850
-F 0 "J40" H 4950 3967 50  0000 C CNN
-F 1 "Conn_02x20" H 4950 3876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4900 2850 50  0001 C CNN
-F 3 "~" H 4900 2850 50  0001 C CNN
-	1    4900 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 2850 5450 2850
-Wire Wire Line
-	5200 3350 5450 3350
-Wire Wire Line
-	5200 3850 5450 3850
-Wire Wire Line
-	5200 2950 5450 2950
-Wire Wire Line
-	5200 3450 5450 3450
-Wire Wire Line
-	5200 3050 5450 3050
-Wire Wire Line
-	5200 3550 5450 3550
-Wire Wire Line
-	5200 3150 5450 3150
-Wire Wire Line
-	5200 3650 5450 3650
-Wire Wire Line
-	5200 2750 5450 2750
-Wire Wire Line
-	5200 3250 5450 3250
-Wire Wire Line
-	5200 3750 5450 3750
-$Comp
-L Spojko-rescue:Conn_02x20_Odd_Even-Connector_Generic J50
-U 1 1 5AF8A2AE
-P 5650 2850
-F 0 "J50" H 5700 3967 50  0000 C CNN
-F 1 "Conn_02x20" H 5700 3876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5650 2850 50  0001 C CNN
-F 3 "~" H 5650 2850 50  0001 C CNN
-	1    5650 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 2850 6250 2850
-Wire Wire Line
-	5950 3350 6250 3350
-Wire Wire Line
-	5950 3850 6250 3850
-Wire Wire Line
-	5950 2950 6250 2950
-Wire Wire Line
-	5950 3450 6250 3450
-Wire Wire Line
-	5950 3050 6250 3050
-Wire Wire Line
-	5950 3550 6250 3550
-Wire Wire Line
-	5950 3150 6250 3150
-Wire Wire Line
-	5950 3650 6250 3650
-Wire Wire Line
-	5950 2750 6250 2750
-Wire Wire Line
-	5950 3250 6250 3250
-Wire Wire Line
-	5950 3750 6250 3750
-$Comp
-L Spojko-rescue:Conn_02x20_Odd_Even-Connector_Generic J60
-U 1 1 5AF8A33E
-P 6450 2850
-F 0 "J60" H 6500 3967 50  0000 C CNN
-F 1 "Conn_02x20" H 6500 3876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 6450 2850 50  0001 C CNN
-F 3 "~" H 6450 2850 50  0001 C CNN
-	1    6450 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 2750 6250 2750
-Connection ~ 6250 2750
-Wire Wire Line
-	6750 2850 6250 2850
-Connection ~ 6250 2850
-Wire Wire Line
-	6750 2950 6250 2950
-Connection ~ 6250 2950
-Connection ~ 6250 3050
-Wire Wire Line
-	6750 3150 6250 3150
-Connection ~ 6250 3150
-Wire Wire Line
-	6750 3250 6250 3250
-Connection ~ 6250 3250
-Wire Wire Line
-	6750 3350 6250 3350
-Connection ~ 6250 3350
-Wire Wire Line
-	6750 3450 6250 3450
-Connection ~ 6250 3450
-Wire Wire Line
-	6750 3550 6250 3550
-Connection ~ 6250 3550
-Wire Wire Line
-	6750 3650 6250 3650
-Connection ~ 6250 3650
-Wire Wire Line
-	6750 3750 6250 3750
-Connection ~ 6250 3750
-Wire Wire Line
-	6750 3850 6250 3850
-Connection ~ 6250 3850
-Wire Wire Line
-	5950 3850 5450 3850
-Connection ~ 5450 3850
-Wire Wire Line
-	5450 3750 5950 3750
-Connection ~ 5450 3750
-Wire Wire Line
-	5950 3650 5450 3650
-Connection ~ 5450 3650
-Wire Wire Line
-	5450 3550 5950 3550
-Connection ~ 5450 3550
-Wire Wire Line
-	5950 3450 5450 3450
-Connection ~ 5450 3450
-Wire Wire Line
-	5450 3350 5950 3350
-Connection ~ 5450 3350
-Wire Wire Line
-	5950 3250 5450 3250
-Connection ~ 5450 3250
-Wire Wire Line
-	5450 3150 5950 3150
-Connection ~ 5450 3150
-Wire Wire Line
-	5950 3050 5450 3050
-Connection ~ 5450 3050
-Wire Wire Line
-	5450 2950 5950 2950
-Connection ~ 5450 2950
-Wire Wire Line
-	5950 2850 5450 2850
-Connection ~ 5450 2850
-Wire Wire Line
-	5950 2750 5450 2750
-Connection ~ 5450 2750
-Wire Wire Line
-	4700 2750 5200 2750
-Connection ~ 4700 2750
-Connection ~ 5200 2750
-Wire Wire Line
-	5200 2850 4700 2850
-Connection ~ 5200 2850
-Connection ~ 4700 2850
-Wire Wire Line
-	4700 2950 5200 2950
-Connection ~ 4700 2950
-Connection ~ 5200 2950
-Wire Wire Line
-	5200 3050 4700 3050
-Connection ~ 5200 3050
-Connection ~ 4700 3050
-Wire Wire Line
-	4700 3150 5200 3150
-Connection ~ 4700 3150
-Connection ~ 5200 3150
-Wire Wire Line
-	5200 3250 4700 3250
-Connection ~ 5200 3250
-Connection ~ 4700 3250
-Wire Wire Line
-	4700 3350 5200 3350
-Connection ~ 4700 3350
-Connection ~ 5200 3350
-Wire Wire Line
-	5200 3450 4700 3450
-Connection ~ 5200 3450
-Connection ~ 4700 3450
-Wire Wire Line
-	4700 3550 5200 3550
-Connection ~ 4700 3550
-Connection ~ 5200 3550
-Wire Wire Line
-	5200 3650 4700 3650
-Connection ~ 5200 3650
-Connection ~ 4700 3650
-Wire Wire Line
-	4700 3750 5200 3750
-Connection ~ 4700 3750
-Connection ~ 5200 3750
-Wire Wire Line
-	5200 3850 4700 3850
-Connection ~ 5200 3850
-Connection ~ 4700 3850
-Wire Wire Line
-	4500 3850 4000 3850
-Connection ~ 4500 3850
-Connection ~ 4000 3850
-Wire Wire Line
-	3750 3850 3250 3850
-Connection ~ 3750 3850
-Wire Wire Line
-	3250 3050 3750 3050
-Connection ~ 3750 3050
-Wire Wire Line
-	3750 3150 3250 3150
-Connection ~ 3750 3150
-Wire Wire Line
-	3250 3250 3750 3250
-Connection ~ 3750 3250
-Wire Wire Line
-	3750 3350 3250 3350
-Connection ~ 3750 3350
-Wire Wire Line
-	3250 3450 3750 3450
-Connection ~ 3750 3450
-Wire Wire Line
-	3750 3550 3250 3550
-Connection ~ 3750 3550
-Wire Wire Line
-	3250 3650 3750 3650
-Connection ~ 3750 3650
-Wire Wire Line
-	3750 3750 3250 3750
-Connection ~ 3750 3750
-Wire Wire Line
-	4000 3750 4500 3750
-Connection ~ 4000 3750
-Connection ~ 4500 3750
-Wire Wire Line
-	4500 3650 4000 3650
-Connection ~ 4500 3650
-Connection ~ 4000 3650
-Wire Wire Line
-	4000 3550 4500 3550
-Connection ~ 4000 3550
-Connection ~ 4500 3550
-Wire Wire Line
-	4500 3450 4000 3450
-Connection ~ 4500 3450
-Connection ~ 4000 3450
-Wire Wire Line
-	4000 3350 4500 3350
-Connection ~ 4000 3350
-Connection ~ 4500 3350
-Wire Wire Line
-	4500 3250 4000 3250
-Connection ~ 4500 3250
-Connection ~ 4000 3250
-Wire Wire Line
-	4000 3150 4500 3150
-Connection ~ 4000 3150
-Connection ~ 4500 3150
-Wire Wire Line
-	4500 3050 4000 3050
-Connection ~ 4500 3050
-Connection ~ 4000 3050
-Wire Wire Line
-	4000 2950 4500 2950
-Connection ~ 4000 2950
-Connection ~ 4500 2950
-Wire Wire Line
-	4500 2850 4000 2850
-Connection ~ 4500 2850
-Connection ~ 4000 2850
-Wire Wire Line
-	4000 2750 4500 2750
-Connection ~ 4000 2750
-Connection ~ 4500 2750
-Wire Wire Line
-	3750 2750 3250 2750
-Connection ~ 3750 2750
-Wire Wire Line
-	3250 2850 3750 2850
-Connection ~ 3750 2850
-Wire Wire Line
-	3750 2950 3250 2950
-Connection ~ 3750 2950
-Wire Wire Line
 	2500 4350 3000 4350
 Connection ~ 2500 4350
 Connection ~ 3000 4350
@@ -1101,18 +757,6 @@ Connection ~ 5950 4650
 Connection ~ 5950 4550
 Connection ~ 5950 4450
 Connection ~ 5950 4350
-Connection ~ 5950 2750
-Connection ~ 5950 2850
-Connection ~ 5950 2950
-Connection ~ 5950 3050
-Connection ~ 5950 3150
-Connection ~ 5950 3250
-Connection ~ 5950 3350
-Connection ~ 5950 3450
-Connection ~ 5950 3550
-Connection ~ 5950 3650
-Connection ~ 5950 3750
-Connection ~ 5950 3850
 $Comp
 L Spojko-rescue:Conn_02x14_Odd_Even-Connector_Generic J71
 U 1 1 5AF646AE
@@ -1124,53 +768,6 @@ F 3 "~" H 7350 4950 50  0001 C CNN
 	1    7350 4950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Spojko-rescue:Conn_02x20_Odd_Even-Connector_Generic J70
-U 1 1 5AF646C8
-P 7350 2850
-F 0 "J70" H 7400 3967 50  0000 C CNN
-F 1 "Conn_02x20" H 7400 3876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 7350 2850 50  0001 C CNN
-F 3 "~" H 7350 2850 50  0001 C CNN
-	1    7350 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7650 2750 7150 2750
-Connection ~ 7150 2750
-Wire Wire Line
-	7650 2850 7150 2850
-Connection ~ 7150 2850
-Wire Wire Line
-	7650 2950 7150 2950
-Connection ~ 7150 2950
-Wire Wire Line
-	7650 3050 7150 3050
-Connection ~ 7150 3050
-Wire Wire Line
-	7650 3150 7150 3150
-Connection ~ 7150 3150
-Wire Wire Line
-	7650 3250 7150 3250
-Connection ~ 7150 3250
-Wire Wire Line
-	7650 3350 7150 3350
-Connection ~ 7150 3350
-Wire Wire Line
-	7650 3450 7150 3450
-Connection ~ 7150 3450
-Wire Wire Line
-	7650 3550 7150 3550
-Connection ~ 7150 3550
-Wire Wire Line
-	7650 3650 7150 3650
-Connection ~ 7150 3650
-Wire Wire Line
-	7650 3750 7150 3750
-Connection ~ 7150 3750
-Wire Wire Line
-	7650 3850 7150 3850
-Connection ~ 7150 3850
 Wire Wire Line
 	7150 4350 7650 4350
 Connection ~ 7150 4350
@@ -1213,44 +810,6 @@ Connection ~ 7150 5550
 Wire Wire Line
 	7650 5650 7150 5650
 Connection ~ 7150 5650
-Wire Wire Line
-	6750 2750 7150 2750
-Connection ~ 6750 2750
-Wire Wire Line
-	6750 2850 7150 2850
-Connection ~ 6750 2850
-Wire Wire Line
-	6750 2950 7150 2950
-Connection ~ 6750 2950
-Wire Wire Line
-	6250 3050 6750 3050
-Connection ~ 6750 3050
-Wire Wire Line
-	6750 3050 7150 3050
-Wire Wire Line
-	6750 3150 7150 3150
-Connection ~ 6750 3150
-Wire Wire Line
-	6750 3250 7150 3250
-Connection ~ 6750 3250
-Wire Wire Line
-	6750 3350 7150 3350
-Connection ~ 6750 3350
-Wire Wire Line
-	6750 3450 7150 3450
-Connection ~ 6750 3450
-Wire Wire Line
-	6750 3550 7150 3550
-Connection ~ 6750 3550
-Wire Wire Line
-	6750 3650 7150 3650
-Connection ~ 6750 3650
-Wire Wire Line
-	6750 3750 7150 3750
-Connection ~ 6750 3750
-Wire Wire Line
-	6750 3850 7150 3850
-Connection ~ 6750 3850
 Wire Wire Line
 	6750 4350 7150 4350
 Connection ~ 6750 4350
@@ -1415,4 +974,167 @@ Text GLabel 1400 1450 2    60   Input ~ 0
 GPIO8-SPIO-CE0
 Text GLabel 1400 1550 2    60   Input ~ 0
 GPIO7-SPI-CE1
+Text GLabel 2000 2950 0    60   Input ~ 0
+GND
+Text GLabel 2000 3650 0    60   Input ~ 0
+GND
+Wire Wire Line
+	4500 3850 4000 3850
+Wire Wire Line
+	4000 2950 4500 2950
+Wire Wire Line
+	4500 2850 4000 2850
+Wire Wire Line
+	4000 2750 4500 2750
+$Comp
+L Spojko-rescue:Conn_02x20_Odd_Even-Connector_Generic J30
+U 1 1 5AF8A194
+P 4200 2850
+F 0 "J30" H 4250 3967 50  0000 C CNN
+F 1 "Conn_02x20" H 4250 3876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4200 2850 50  0001 C CNN
+F 3 "~" H 4200 2850 50  0001 C CNN
+	1    4200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3850 4700 3850
+Wire Wire Line
+	4700 3750 5200 3750
+Wire Wire Line
+	5200 3650 4700 3650
+Wire Wire Line
+	4700 3550 5200 3550
+Wire Wire Line
+	5200 3450 4700 3450
+Wire Wire Line
+	4700 3350 5200 3350
+Wire Wire Line
+	5200 3250 4700 3250
+Wire Wire Line
+	4700 3150 5200 3150
+Wire Wire Line
+	5200 3050 4700 3050
+Wire Wire Line
+	4700 2950 5200 2950
+Wire Wire Line
+	5200 2850 4700 2850
+Wire Wire Line
+	4700 2750 5200 2750
+$Comp
+L Spojko-rescue:Conn_02x20_Odd_Even-Connector_Generic J40
+U 1 1 5AF8A220
+P 4900 2850
+F 0 "J40" H 4950 3967 50  0000 C CNN
+F 1 "Conn_02x20" H 4950 3876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4900 2850 50  0001 C CNN
+F 3 "~" H 4900 2850 50  0001 C CNN
+	1    4900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3850 5450 3850
+Wire Wire Line
+	5450 3750 5950 3750
+Wire Wire Line
+	5950 3650 5450 3650
+Wire Wire Line
+	5450 3550 5950 3550
+Wire Wire Line
+	5950 3450 5450 3450
+Wire Wire Line
+	5450 3350 5950 3350
+Wire Wire Line
+	5950 3250 5450 3250
+Wire Wire Line
+	5450 3150 5950 3150
+Wire Wire Line
+	5950 3050 5450 3050
+Wire Wire Line
+	5450 2950 5950 2950
+Wire Wire Line
+	5950 2850 5450 2850
+Wire Wire Line
+	5950 2750 5450 2750
+$Comp
+L Spojko-rescue:Conn_02x20_Odd_Even-Connector_Generic J50
+U 1 1 5AF8A2AE
+P 5650 2850
+F 0 "J50" H 5700 3967 50  0000 C CNN
+F 1 "Conn_02x20" H 5700 3876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5650 2850 50  0001 C CNN
+F 3 "~" H 5650 2850 50  0001 C CNN
+	1    5650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3850 6250 3850
+Wire Wire Line
+	6750 3750 6250 3750
+Wire Wire Line
+	6750 3650 6250 3650
+Wire Wire Line
+	6750 3550 6250 3550
+Wire Wire Line
+	6750 3450 6250 3450
+Wire Wire Line
+	6750 3350 6250 3350
+Wire Wire Line
+	6750 3250 6250 3250
+Wire Wire Line
+	6750 3150 6250 3150
+Wire Wire Line
+	6250 3050 6750 3050
+Wire Wire Line
+	6750 2950 6250 2950
+Wire Wire Line
+	6750 2850 6250 2850
+Wire Wire Line
+	6750 2750 6250 2750
+$Comp
+L Spojko-rescue:Conn_02x20_Odd_Even-Connector_Generic J60
+U 1 1 5AF8A33E
+P 6450 2850
+F 0 "J60" H 6500 3967 50  0000 C CNN
+F 1 "Conn_02x20" H 6500 3876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 6450 2850 50  0001 C CNN
+F 3 "~" H 6450 2850 50  0001 C CNN
+	1    6450 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3850 7150 3850
+Wire Wire Line
+	7650 3750 7150 3750
+Wire Wire Line
+	7650 3650 7150 3650
+Wire Wire Line
+	7650 3550 7150 3550
+Wire Wire Line
+	7650 3450 7150 3450
+Wire Wire Line
+	7650 3350 7150 3350
+Wire Wire Line
+	7650 3250 7150 3250
+Wire Wire Line
+	7650 3150 7150 3150
+Wire Wire Line
+	7650 3050 7150 3050
+Wire Wire Line
+	7650 2950 7150 2950
+Wire Wire Line
+	7650 2850 7150 2850
+Wire Wire Line
+	7650 2750 7150 2750
+$Comp
+L Spojko-rescue:Conn_02x20_Odd_Even-Connector_Generic J70
+U 1 1 5AF646C8
+P 7350 2850
+F 0 "J70" H 7400 3967 50  0000 C CNN
+F 1 "Conn_02x20" H 7400 3876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 7350 2850 50  0001 C CNN
+F 3 "~" H 7350 2850 50  0001 C CNN
+	1    7350 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

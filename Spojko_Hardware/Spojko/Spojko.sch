@@ -681,10 +681,8 @@ Wire Wire Line
 	10500 5100 10600 5100
 Wire Wire Line
 	10600 5100 10600 5900
-Text GLabel 4850 4100 2    60   Input ~ 0
+Text GLabel 4850 4600 2    60   Input ~ 0
 RST
-Wire Wire Line
-	4850 4100 4700 4100
 Wire Wire Line
 	2050 3850 2050 3950
 Wire Wire Line
@@ -745,4 +743,48 @@ Wire Wire Line
 	3750 1400 3400 1400
 Wire Wire Line
 	3750 1650 3400 1650
+Text GLabel 4850 4500 2    60   Input ~ 0
+GPIO4
+Text GLabel 4850 4900 2    60   Input ~ 0
+GPIO13
+Text GLabel 4850 5100 2    60   Input ~ 0
+GPIO17
+Text GLabel 4850 5600 2    60   Input ~ 0
+GPIO22
+Text GLabel 4850 6100 2    60   Input ~ 0
+GPIO27
+Wire Wire Line
+	4700 6100 4850 6100
+Wire Wire Line
+	4700 5600 4850 5600
+Wire Wire Line
+	4700 5100 4850 5100
+Wire Wire Line
+	4700 4900 4850 4900
+Wire Wire Line
+	4700 4700 4850 4700
+Wire Wire Line
+	4700 4600 4850 4600
+Wire Wire Line
+	4700 4500 4850 4500
+Text GLabel 4850 3700 2    60   Input ~ 0
+GPIO10-SPI-MOSI
+Text GLabel 4850 3800 2    60   Input ~ 0
+GPIO09-SPI-MISO
+Text GLabel 4850 3900 2    60   Input ~ 0
+GPI11-SPI-SCLK
+Text GLabel 4850 4000 2    60   Input ~ 0
+GPIO8-SPIO-CE0
+Wire Wire Line
+	4700 3700 4850 3700
+Wire Wire Line
+	4700 3800 4850 3800
+Wire Wire Line
+	4700 3900 4850 3900
+Wire Wire Line
+	4700 4000 4850 4000
+Text GLabel 4850 4100 2    60   Input ~ 0
+GPIO7-SPI-CE1
+Wire Wire Line
+	4850 4100 4700 4100
 $EndSCHEMATC
